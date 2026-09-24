@@ -1,0 +1,8320 @@
+{
+  "captiveportal.accessLogoff": [
+    "zoneid",
+    "config"
+  ],
+  "captiveportal.accessLogon": [
+    "zoneid",
+    "data",
+    "config"
+  ],
+  "captiveportal.serviceDelTemplate": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "captiveportal.serviceGetTemplate": [
+    "fileid",
+    "config"
+  ],
+  "captiveportal.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "captiveportal.serviceSaveTemplate": [
+    "data",
+    "config"
+  ],
+  "captiveportal.serviceSearchTemplates": [
+    "config"
+  ],
+  "captiveportal.sessionConnect": [
+    "zoneid",
+    "data",
+    "config"
+  ],
+  "captiveportal.sessionDisconnect": [
+    "zoneid",
+    "data",
+    "config"
+  ],
+  "captiveportal.sessionList": [
+    "zoneid",
+    "config"
+  ],
+  "captiveportal.sessionSearch": [
+    "config"
+  ],
+  "captiveportal.sessionZones": [
+    "config"
+  ],
+  "captiveportal.settingsAddZone": [
+    "data",
+    "config"
+  ],
+  "captiveportal.settingsDelZone": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "captiveportal.settingsGet": [
+    "config"
+  ],
+  "captiveportal.settingsGetZone": [
+    "uuid",
+    "config"
+  ],
+  "captiveportal.settingsSet": [
+    "data",
+    "config"
+  ],
+  "captiveportal.settingsSetZone": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "captiveportal.settingsToggleZone": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "captiveportal.voucherDropExpiredVouchers": [
+    "provider",
+    "group",
+    "data",
+    "config"
+  ],
+  "captiveportal.voucherDropVoucherGroup": [
+    "provider",
+    "group",
+    "data",
+    "config"
+  ],
+  "captiveportal.voucherExpireVoucher": [
+    "provider",
+    "data",
+    "config"
+  ],
+  "captiveportal.voucherGenerateVouchers": [
+    "provider",
+    "data",
+    "config"
+  ],
+  "captiveportal.voucherListProviders": [
+    "config"
+  ],
+  "captiveportal.voucherListVoucherGroups": [
+    "provider",
+    "config"
+  ],
+  "captiveportal.voucherListVouchers": [
+    "provider",
+    "group",
+    "config"
+  ],
+  "cron.settingsAddJob": [
+    "data",
+    "config"
+  ],
+  "cron.settingsDelJob": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "cron.settingsGet": [
+    "config"
+  ],
+  "cron.settingsGetJob": [
+    "uuid",
+    "config"
+  ],
+  "cron.settingsSet": [
+    "data",
+    "config"
+  ],
+  "cron.settingsSetJob": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "cron.settingsToggleJob": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "dhcpv4.leasesSearchLease": [
+    "config"
+  ],
+  "dhcpv4.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "dhcpv4.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "dhcpv4.serviceStart": [
+    "data",
+    "config"
+  ],
+  "dhcpv4.serviceStatus": [
+    "config"
+  ],
+  "dhcpv4.serviceStop": [
+    "data",
+    "config"
+  ],
+  "dhcpv6.leasesSearchLease": [
+    "config"
+  ],
+  "dhcpv6.leasesSearchPrefix": [
+    "config"
+  ],
+  "dhcpv6.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "dhcpv6.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "dhcpv6.serviceStart": [
+    "data",
+    "config"
+  ],
+  "dhcpv6.serviceStatus": [
+    "config"
+  ],
+  "dhcpv6.serviceStop": [
+    "data",
+    "config"
+  ],
+  "dhcrelay.settingsAddDest": [
+    "data",
+    "config"
+  ],
+  "dhcrelay.settingsAddRelay": [
+    "data",
+    "config"
+  ],
+  "dhcrelay.settingsDelDest": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dhcrelay.settingsDelRelay": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dhcrelay.settingsGet": [
+    "config"
+  ],
+  "dhcrelay.settingsGetDest": [
+    "uuid",
+    "config"
+  ],
+  "dhcrelay.settingsGetRelay": [
+    "uuid",
+    "config"
+  ],
+  "dhcrelay.settingsSet": [
+    "data",
+    "config"
+  ],
+  "dhcrelay.settingsSetDest": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dhcrelay.settingsSetRelay": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dhcrelay.settingsToggleRelay": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "diagnostics.cpuUsageGetCPUType": [
+    "config"
+  ],
+  "diagnostics.cpuUsageStream": [
+    "config"
+  ],
+  "diagnostics.dnsReverseLookup": [
+    "config"
+  ],
+  "diagnostics.dnsDiagnosticsGet": [
+    "config"
+  ],
+  "diagnostics.dnsDiagnosticsSet": [
+    "data",
+    "config"
+  ],
+  "diagnostics.firewallDelState": [
+    "stateid",
+    "creatorid",
+    "data",
+    "config"
+  ],
+  "diagnostics.firewallFlushSources": [
+    "data",
+    "config"
+  ],
+  "diagnostics.firewallFlushStates": [
+    "data",
+    "config"
+  ],
+  "diagnostics.firewallKillStates": [
+    "data",
+    "config"
+  ],
+  "diagnostics.firewallListRuleIds": [
+    "config"
+  ],
+  "diagnostics.firewallLog": [
+    "config"
+  ],
+  "diagnostics.firewallLogFilters": [
+    "config"
+  ],
+  "diagnostics.firewallPfStates": [
+    "config"
+  ],
+  "diagnostics.firewallPfStatistics": [
+    "section",
+    "config"
+  ],
+  "diagnostics.firewallQueryPfTop": [
+    "data",
+    "config"
+  ],
+  "diagnostics.firewallQueryStates": [
+    "data",
+    "config"
+  ],
+  "diagnostics.firewallStats": [
+    "config"
+  ],
+  "diagnostics.firewallStreamLog": [
+    "config"
+  ],
+  "diagnostics.interfaceCarpStatus": [
+    "status",
+    "data",
+    "config"
+  ],
+  "diagnostics.interfaceDelRoute": [
+    "data",
+    "config"
+  ],
+  "diagnostics.interfaceFlushArp": [
+    "data",
+    "config"
+  ],
+  "diagnostics.interfaceGetArp": [
+    "config"
+  ],
+  "diagnostics.interfaceGetBpfStatistics": [
+    "config"
+  ],
+  "diagnostics.interfaceGetInterfaceConfig": [
+    "config"
+  ],
+  "diagnostics.interfaceGetInterfaceNames": [
+    "config"
+  ],
+  "diagnostics.interfaceGetInterfaceStatistics": [
+    "config"
+  ],
+  "diagnostics.interfaceGetMemoryStatistics": [
+    "config"
+  ],
+  "diagnostics.interfaceGetNdp": [
+    "config"
+  ],
+  "diagnostics.interfaceGetNetisrStatistics": [
+    "config"
+  ],
+  "diagnostics.interfaceGetPfsyncNodes": [
+    "config"
+  ],
+  "diagnostics.interfaceGetProtocolStatistics": [
+    "config"
+  ],
+  "diagnostics.interfaceGetRoutes": [
+    "config"
+  ],
+  "diagnostics.interfaceGetSocketStatistics": [
+    "config"
+  ],
+  "diagnostics.interfaceGetVipStatus": [
+    "config"
+  ],
+  "diagnostics.interfaceSearchArp": [
+    "config"
+  ],
+  "diagnostics.interfaceSearchNdp": [
+    "config"
+  ],
+  "diagnostics.lvtemplateAddItem": [
+    "data",
+    "config"
+  ],
+  "diagnostics.lvtemplateDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "diagnostics.lvtemplateGet": [
+    "config"
+  ],
+  "diagnostics.lvtemplateGetItem": [
+    "uuid",
+    "config"
+  ],
+  "diagnostics.lvtemplateSet": [
+    "data",
+    "config"
+  ],
+  "diagnostics.lvtemplateSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "diagnostics.netflowCacheStats": [
+    "config"
+  ],
+  "diagnostics.netflowGetconfig": [
+    "config"
+  ],
+  "diagnostics.netflowIsEnabled": [
+    "config"
+  ],
+  "diagnostics.netflowReconfigure": [
+    "data",
+    "config"
+  ],
+  "diagnostics.netflowSetconfig": [
+    "config"
+  ],
+  "diagnostics.netflowStatus": [
+    "config"
+  ],
+  "diagnostics.networkinsightExport": [
+    "provider",
+    "fromDate",
+    "toDate",
+    "resolution",
+    "config"
+  ],
+  "diagnostics.networkinsightGetInterfaces": [
+    "config"
+  ],
+  "diagnostics.networkinsightGetMetadata": [
+    "config"
+  ],
+  "diagnostics.networkinsightGetProtocols": [
+    "config"
+  ],
+  "diagnostics.networkinsightGetServices": [
+    "config"
+  ],
+  "diagnostics.networkinsightTimeserie": [
+    "provider",
+    "measure",
+    "fromDate",
+    "toDate",
+    "resolution",
+    "field",
+    "emulation",
+    "config"
+  ],
+  "diagnostics.networkinsightTop": [
+    "provider",
+    "fromDate",
+    "toDate",
+    "field",
+    "measure",
+    "maxHits",
+    "config"
+  ],
+  "diagnostics.packetCaptureDownload": [
+    "jobid",
+    "config"
+  ],
+  "diagnostics.packetCaptureGet": [
+    "config"
+  ],
+  "diagnostics.packetCaptureMacInfo": [
+    "macaddr",
+    "config"
+  ],
+  "diagnostics.packetCaptureRemove": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "diagnostics.packetCaptureSearchJobs": [
+    "config"
+  ],
+  "diagnostics.packetCaptureSet": [
+    "data",
+    "config"
+  ],
+  "diagnostics.packetCaptureStart": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "diagnostics.packetCaptureStop": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "diagnostics.packetCaptureView": [
+    "jobid",
+    "detail",
+    "config"
+  ],
+  "diagnostics.pingGet": [
+    "config"
+  ],
+  "diagnostics.pingRemove": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "diagnostics.pingSearchJobs": [
+    "config"
+  ],
+  "diagnostics.pingSet": [
+    "data",
+    "config"
+  ],
+  "diagnostics.pingStart": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "diagnostics.pingStop": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "diagnostics.portprobeGet": [
+    "config"
+  ],
+  "diagnostics.portprobeSet": [
+    "data",
+    "config"
+  ],
+  "diagnostics.systemMemory": [
+    "config"
+  ],
+  "diagnostics.systemSystemDisk": [
+    "config"
+  ],
+  "diagnostics.systemSystemInformation": [
+    "config"
+  ],
+  "diagnostics.systemSystemMbuf": [
+    "config"
+  ],
+  "diagnostics.systemSystemResources": [
+    "config"
+  ],
+  "diagnostics.systemSystemSwap": [
+    "config"
+  ],
+  "diagnostics.systemSystemTemperature": [
+    "config"
+  ],
+  "diagnostics.systemSystemTime": [
+    "config"
+  ],
+  "diagnostics.systemhealthExportAsCSV": [
+    "rrd",
+    "detail",
+    "config"
+  ],
+  "diagnostics.systemhealthGetInterfaces": [
+    "config"
+  ],
+  "diagnostics.systemhealthGetRRDlist": [
+    "config"
+  ],
+  "diagnostics.systemhealthGetSystemHealth": [
+    "rrd",
+    "unused",
+    "detail",
+    "config"
+  ],
+  "diagnostics.tracerouteGet": [
+    "config"
+  ],
+  "diagnostics.tracerouteSet": [
+    "data",
+    "config"
+  ],
+  "diagnostics.trafficInterface": [
+    "config"
+  ],
+  "diagnostics.trafficTop": [
+    "interfaces",
+    "config"
+  ],
+  "diagnostics.trafficStream": [
+    "pollInterval",
+    "config"
+  ],
+  "dnsmasq.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.serviceStart": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.serviceStatus": [
+    "config"
+  ],
+  "dnsmasq.serviceStop": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsAddBoot": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsAddDomain": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsAddHost": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsAddOption": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsAddRange": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsAddTag": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsDelBoot": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsDelDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsDelHost": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsDelOption": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsDelRange": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsDelTag": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsDownloadHosts": [
+    "config"
+  ],
+  "dnsmasq.settingsGet": [
+    "config"
+  ],
+  "dnsmasq.settingsGetBoot": [
+    "uuid",
+    "config"
+  ],
+  "dnsmasq.settingsGetDomain": [
+    "uuid",
+    "config"
+  ],
+  "dnsmasq.settingsGetHost": [
+    "uuid",
+    "config"
+  ],
+  "dnsmasq.settingsGetOption": [
+    "uuid",
+    "config"
+  ],
+  "dnsmasq.settingsGetRange": [
+    "uuid",
+    "config"
+  ],
+  "dnsmasq.settingsGetTag": [
+    "uuid",
+    "config"
+  ],
+  "dnsmasq.settingsGetTagList": [
+    "config"
+  ],
+  "dnsmasq.settingsSet": [
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsSetBoot": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsSetDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsSetHost": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsSetOption": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsSetRange": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsSetTag": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "dnsmasq.settingsUploadHosts": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareChangelog": [
+    "version",
+    "data",
+    "config"
+  ],
+  "firmware.firmwareCheck": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareConnection": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareGet": [
+    "config"
+  ],
+  "firmware.firmwareGetOptions": [
+    "config"
+  ],
+  "firmware.firmwareHealth": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareInfo": [
+    "config"
+  ],
+  "firmware.firmwareLog": [
+    "clear",
+    "data",
+    "config"
+  ],
+  "firmware.firmwarePoweroff": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareReboot": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareResyncPlugins": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareRunning": [
+    "config"
+  ],
+  "firmware.firmwareSet": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareStatus": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareSyncPlugins": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareUpdate": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareUpgrade": [
+    "data",
+    "config"
+  ],
+  "firmware.firmwareUpgradestatus": [
+    "config"
+  ],
+  "firmware.firmwareDetails": [
+    "pkgName",
+    "data",
+    "config"
+  ],
+  "firmware.firmwareInstall": [
+    "pkgName",
+    "data",
+    "config"
+  ],
+  "firmware.firmwareLicense": [
+    "pkgName",
+    "data",
+    "config"
+  ],
+  "firmware.firmwareLock": [
+    "pkgName",
+    "data",
+    "config"
+  ],
+  "firmware.firmwareRemove": [
+    "pkgName",
+    "data",
+    "config"
+  ],
+  "firmware.firmwareReinstall": [
+    "pkgName",
+    "data",
+    "config"
+  ],
+  "firmware.firmwareUnlock": [
+    "pkgName",
+    "data",
+    "config"
+  ],
+  "ids.serviceGetAlertInfo": [
+    "alertId",
+    "fileid",
+    "config"
+  ],
+  "ids.serviceGetAlertLogs": [
+    "config"
+  ],
+  "ids.serviceQueryAlerts": [
+    "data",
+    "config"
+  ],
+  "ids.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "ids.serviceReloadRules": [
+    "data",
+    "config"
+  ],
+  "ids.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "ids.serviceStart": [
+    "data",
+    "config"
+  ],
+  "ids.serviceStatus": [
+    "config"
+  ],
+  "ids.serviceStop": [
+    "data",
+    "config"
+  ],
+  "ids.serviceUpdateRules": [
+    "wait",
+    "data",
+    "config"
+  ],
+  "ids.settingsAddPolicy": [
+    "data",
+    "config"
+  ],
+  "ids.settingsAddPolicyRule": [
+    "data",
+    "config"
+  ],
+  "ids.settingsAddUserRule": [
+    "data",
+    "config"
+  ],
+  "ids.settingsCheckPolicyRule": [
+    "config"
+  ],
+  "ids.settingsDelPolicy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ids.settingsDelPolicyRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ids.settingsDelUserRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ids.settingsGet": [
+    "config"
+  ],
+  "ids.settingsGetPolicy": [
+    "uuid",
+    "config"
+  ],
+  "ids.settingsGetPolicyRule": [
+    "uuid",
+    "config"
+  ],
+  "ids.settingsGetRuleInfo": [
+    "sid",
+    "config"
+  ],
+  "ids.settingsGetRuleset": [
+    "id",
+    "config"
+  ],
+  "ids.settingsGetRulesetproperties": [
+    "config"
+  ],
+  "ids.settingsGetUserRule": [
+    "uuid",
+    "config"
+  ],
+  "ids.settingsListRuleMetadata": [
+    "config"
+  ],
+  "ids.settingsListRulesets": [
+    "config"
+  ],
+  "ids.settingsSearchInstalledRules": [
+    "data",
+    "config"
+  ],
+  "ids.settingsSet": [
+    "data",
+    "config"
+  ],
+  "ids.settingsSetPolicy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ids.settingsSetPolicyRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ids.settingsSetRule": [
+    "sid",
+    "data",
+    "config"
+  ],
+  "ids.settingsSetRuleset": [
+    "filename",
+    "data",
+    "config"
+  ],
+  "ids.settingsSetRulesetproperties": [
+    "data",
+    "config"
+  ],
+  "ids.settingsSetUserRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ids.settingsTogglePolicy": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ids.settingsTogglePolicyRule": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ids.settingsToggleRule": [
+    "sids",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ids.settingsToggleRuleset": [
+    "filenames",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ids.settingsToggleUserRule": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsAddConnection": [
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsAddLocal": [
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsAddRemote": [
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsConnectionExists": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.connectionsDelChild": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsDelConnection": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsDelLocal": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsDelRemote": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsGet": [
+    "config"
+  ],
+  "ipsec.connectionsGetChild": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.connectionsGetConnection": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.connectionsGetLocal": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.connectionsGetRemote": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.connectionsIsEnabled": [
+    "config"
+  ],
+  "ipsec.connectionsSet": [
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsSetChild": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsSetConnection": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsSetLocal": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsSetRemote": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsSwanctl": [
+    "config"
+  ],
+  "ipsec.connectionsToggle": [
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsToggleChild": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsToggleConnection": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsToggleLocal": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.connectionsToggleRemote": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.keyPairsAddItem": [
+    "data",
+    "config"
+  ],
+  "ipsec.keyPairsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.keyPairsGenKeyPair": [
+    "type",
+    "size",
+    "config"
+  ],
+  "ipsec.keyPairsGet": [
+    "config"
+  ],
+  "ipsec.keyPairsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.keyPairsSet": [
+    "data",
+    "config"
+  ],
+  "ipsec.keyPairsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.leasesPools": [
+    "config"
+  ],
+  "ipsec.leasesSearch": [
+    "config"
+  ],
+  "ipsec.legacySubsystemApplyConfig": [
+    "data",
+    "config"
+  ],
+  "ipsec.legacySubsystemStatus": [
+    "config"
+  ],
+  "ipsec.manualSpdAdd": [
+    "data",
+    "config"
+  ],
+  "ipsec.manualSpdDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.manualSpdGet": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.manualSpdSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.manualSpdToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.poolsAdd": [
+    "data",
+    "config"
+  ],
+  "ipsec.poolsDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.poolsGet": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.poolsSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.poolsToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.preSharedKeysAddItem": [
+    "data",
+    "config"
+  ],
+  "ipsec.preSharedKeysDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.preSharedKeysGet": [
+    "config"
+  ],
+  "ipsec.preSharedKeysGetItem": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.preSharedKeysSet": [
+    "data",
+    "config"
+  ],
+  "ipsec.preSharedKeysSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.sadDelete": [
+    "id",
+    "data",
+    "config"
+  ],
+  "ipsec.sadSearch": [
+    "config"
+  ],
+  "ipsec.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "ipsec.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "ipsec.serviceStart": [
+    "data",
+    "config"
+  ],
+  "ipsec.serviceStatus": [
+    "config"
+  ],
+  "ipsec.serviceStop": [
+    "data",
+    "config"
+  ],
+  "ipsec.sessionsConnect": [
+    "id",
+    "data",
+    "config"
+  ],
+  "ipsec.sessionsDisconnect": [
+    "id",
+    "data",
+    "config"
+  ],
+  "ipsec.sessionsSearchPhase1": [
+    "config"
+  ],
+  "ipsec.sessionsSearchPhase2": [
+    "config"
+  ],
+  "ipsec.settingsGet": [
+    "config"
+  ],
+  "ipsec.settingsSet": [
+    "data",
+    "config"
+  ],
+  "ipsec.spdDelete": [
+    "id",
+    "data",
+    "config"
+  ],
+  "ipsec.spdSearch": [
+    "config"
+  ],
+  "ipsec.tunnelDelPhase1": [
+    "ikeid",
+    "data",
+    "config"
+  ],
+  "ipsec.tunnelDelPhase2": [
+    "seqid",
+    "data",
+    "config"
+  ],
+  "ipsec.tunnelSearchPhase1": [
+    "config"
+  ],
+  "ipsec.tunnelSearchPhase2": [
+    "config"
+  ],
+  "ipsec.tunnelToggle": [
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.tunnelTogglePhase1": [
+    "ikeid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.tunnelTogglePhase2": [
+    "seqid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "ipsec.vtiAdd": [
+    "data",
+    "config"
+  ],
+  "ipsec.vtiDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.vtiGet": [
+    "uuid",
+    "config"
+  ],
+  "ipsec.vtiSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "ipsec.vtiToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "kea.ctrlAgentSet": [
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4AddPeer": [
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4AddReservation": [
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4AddSubnet": [
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4DelPeer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4DelReservation": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4DelSubnet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4DownloadReservations": [
+    "config"
+  ],
+  "kea.dhcpv4Get": [
+    "config"
+  ],
+  "kea.dhcpv4GetPeer": [
+    "uuid",
+    "config"
+  ],
+  "kea.dhcpv4GetReservation": [
+    "uuid",
+    "config"
+  ],
+  "kea.dhcpv4GetSubnet": [
+    "uuid",
+    "config"
+  ],
+  "kea.dhcpv4Set": [
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4SetPeer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4SetReservation": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4SetSubnet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "kea.dhcpv4UploadReservations": [
+    "data",
+    "config"
+  ],
+  "kea.leases4Search": [
+    "config"
+  ],
+  "kea.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "kea.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "kea.serviceStart": [
+    "data",
+    "config"
+  ],
+  "kea.serviceStatus": [
+    "config"
+  ],
+  "kea.serviceStop": [
+    "data",
+    "config"
+  ],
+  "monit.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "monit.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "monit.serviceStart": [
+    "data",
+    "config"
+  ],
+  "monit.serviceStatus": [
+    "config"
+  ],
+  "monit.serviceStop": [
+    "data",
+    "config"
+  ],
+  "monit.settingsAddAlert": [
+    "data",
+    "config"
+  ],
+  "monit.settingsAddService": [
+    "data",
+    "config"
+  ],
+  "monit.settingsAddTest": [
+    "data",
+    "config"
+  ],
+  "monit.settingsDelAlert": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "monit.settingsDelService": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "monit.settingsDelTest": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "monit.settingsDirty": [
+    "config"
+  ],
+  "monit.settingsGet": [
+    "config"
+  ],
+  "monit.settingsGetAlert": [
+    "uuid",
+    "config"
+  ],
+  "monit.settingsGetGeneral": [
+    "config"
+  ],
+  "monit.settingsGetService": [
+    "uuid",
+    "config"
+  ],
+  "monit.settingsGetTest": [
+    "uuid",
+    "config"
+  ],
+  "monit.settingsSet": [
+    "data",
+    "config"
+  ],
+  "monit.settingsSetAlert": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "monit.settingsSetService": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "monit.settingsSetTest": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "monit.settingsToggleAlert": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "monit.settingsToggleService": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "monit.statusGet": [
+    "format",
+    "config"
+  ],
+  "openvpn.clientOverwritesDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "openvpn.clientOverwritesGet": [
+    "uuid",
+    "config"
+  ],
+  "openvpn.clientOverwritesSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "openvpn.clientOverwritesToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "openvpn.exportAccounts": [
+    "vpnid",
+    "config"
+  ],
+  "openvpn.exportDownload": [
+    "vpnid",
+    "certref",
+    "data",
+    "config"
+  ],
+  "openvpn.exportProviders": [
+    "config"
+  ],
+  "openvpn.exportStorePresets": [
+    "vpnid",
+    "data",
+    "config"
+  ],
+  "openvpn.exportTemplates": [
+    "config"
+  ],
+  "openvpn.exportValidatePresets": [
+    "vpnid",
+    "data",
+    "config"
+  ],
+  "openvpn.instancesAdd": [
+    "data",
+    "config"
+  ],
+  "openvpn.instancesAddStaticKey": [
+    "data",
+    "config"
+  ],
+  "openvpn.instancesDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "openvpn.instancesDelStaticKey": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "openvpn.instancesGenKey": [
+    "type",
+    "config"
+  ],
+  "openvpn.instancesGet": [
+    "uuid",
+    "config"
+  ],
+  "openvpn.instancesGetStaticKey": [
+    "uuid",
+    "config"
+  ],
+  "openvpn.instancesSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "openvpn.instancesSetStaticKey": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "openvpn.instancesToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "openvpn.serviceKillSession": [
+    "data",
+    "config"
+  ],
+  "openvpn.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "openvpn.serviceRestartService": [
+    "id",
+    "data",
+    "config"
+  ],
+  "openvpn.serviceSearchRoutes": [
+    "config"
+  ],
+  "openvpn.serviceSearchSessions": [
+    "config"
+  ],
+  "openvpn.serviceStartService": [
+    "id",
+    "data",
+    "config"
+  ],
+  "openvpn.serviceStopService": [
+    "id",
+    "data",
+    "config"
+  ],
+  "routes.routesAddroute": [
+    "data",
+    "config"
+  ],
+  "routes.routesDelroute": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "routes.routesGet": [
+    "config"
+  ],
+  "routes.routesGetroute": [
+    "uuid",
+    "config"
+  ],
+  "routes.routesReconfigure": [
+    "data",
+    "config"
+  ],
+  "routes.routesSet": [
+    "data",
+    "config"
+  ],
+  "routes.routesSetroute": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "routes.routesToggleroute": [
+    "uuid",
+    "disabled",
+    "data",
+    "config"
+  ],
+  "routing.settingsDelGateway": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "routing.settingsGet": [
+    "config"
+  ],
+  "routing.settingsGetGateway": [
+    "uuid",
+    "config"
+  ],
+  "routing.settingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "routing.settingsSearchGateway": [
+    "config"
+  ],
+  "routing.settingsSet": [
+    "data",
+    "config"
+  ],
+  "routing.settingsSetGateway": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "routing.settingsToggleGateway": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "syslog.serviceReset": [
+    "data",
+    "config"
+  ],
+  "syslog.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "syslog.serviceStart": [
+    "data",
+    "config"
+  ],
+  "syslog.serviceStats": [
+    "config"
+  ],
+  "syslog.serviceStatus": [
+    "config"
+  ],
+  "syslog.serviceStop": [
+    "data",
+    "config"
+  ],
+  "syslog.settingsAddDestination": [
+    "data",
+    "config"
+  ],
+  "syslog.settingsDelDestination": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "syslog.settingsGet": [
+    "config"
+  ],
+  "syslog.settingsGetDestination": [
+    "uuid",
+    "config"
+  ],
+  "syslog.settingsSet": [
+    "data",
+    "config"
+  ],
+  "syslog.settingsSetDestination": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "syslog.settingsToggleDestination": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "trafficshaper.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "trafficshaper.serviceStatistics": [
+    "config"
+  ],
+  "trafficshaper.settingsAddPipe": [
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsAddQueue": [
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsAddRule": [
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsDelPipe": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsDelQueue": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsDelRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsGet": [
+    "config"
+  ],
+  "trafficshaper.settingsGetPipe": [
+    "uuid",
+    "config"
+  ],
+  "trafficshaper.settingsGetQueue": [
+    "uuid",
+    "config"
+  ],
+  "trafficshaper.settingsGetRule": [
+    "uuid",
+    "config"
+  ],
+  "trafficshaper.settingsSet": [
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsSetPipe": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsSetQueue": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsSetRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsTogglePipe": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsToggleQueue": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "trafficshaper.settingsToggleRule": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "trust.caCaList": [
+    "config"
+  ],
+  "trust.caDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trust.caGenerateFile": [
+    "uuid",
+    "type",
+    "data",
+    "config"
+  ],
+  "trust.caGet": [
+    "config"
+  ],
+  "trust.caRawDump": [
+    "uuid",
+    "config"
+  ],
+  "trust.caSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trust.certAdd": [
+    "data",
+    "config"
+  ],
+  "trust.certCaInfo": [
+    "caref",
+    "config"
+  ],
+  "trust.certCaList": [
+    "config"
+  ],
+  "trust.certDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trust.certGenerateFile": [
+    "uuid",
+    "type",
+    "data",
+    "config"
+  ],
+  "trust.certGet": [
+    "uuid",
+    "config"
+  ],
+  "trust.certRawDump": [
+    "uuid",
+    "config"
+  ],
+  "trust.certSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "trust.certUserList": [
+    "config"
+  ],
+  "trust.crlDel": [
+    "caref",
+    "data",
+    "config"
+  ],
+  "trust.crlGet": [
+    "caref",
+    "config"
+  ],
+  "trust.crlGetOcspInfoData": [
+    "caref",
+    "config"
+  ],
+  "trust.crlRawDump": [
+    "caref",
+    "config"
+  ],
+  "trust.crlSearch": [
+    "config"
+  ],
+  "trust.crlSet": [
+    "caref",
+    "data",
+    "config"
+  ],
+  "trust.settingsGet": [
+    "config"
+  ],
+  "trust.settingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "trust.settingsSet": [
+    "data",
+    "config"
+  ],
+  "unbound.diagnosticsDumpinfra": [
+    "config"
+  ],
+  "unbound.diagnosticsListinsecure": [
+    "config"
+  ],
+  "unbound.diagnosticsListlocaldata": [
+    "config"
+  ],
+  "unbound.diagnosticsListlocalzones": [
+    "config"
+  ],
+  "unbound.diagnosticsStats": [
+    "config"
+  ],
+  "unbound.overviewRolling": [
+    "timeperiod",
+    "clients",
+    "config"
+  ],
+  "unbound.overviewIsBlockListEnabled": [
+    "config"
+  ],
+  "unbound.overviewIsEnabled": [
+    "config"
+  ],
+  "unbound.overviewSearchQueries": [
+    "config"
+  ],
+  "unbound.overviewTotals": [
+    "maximum",
+    "config"
+  ],
+  "unbound.serviceDnsbl": [
+    "config"
+  ],
+  "unbound.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "unbound.serviceReconfigureGeneral": [
+    "config"
+  ],
+  "unbound.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "unbound.serviceStart": [
+    "data",
+    "config"
+  ],
+  "unbound.serviceStatus": [
+    "config"
+  ],
+  "unbound.serviceStop": [
+    "data",
+    "config"
+  ],
+  "unbound.settingsAddAcl": [
+    "data",
+    "config"
+  ],
+  "unbound.settingsAddForward": [
+    "data",
+    "config"
+  ],
+  "unbound.settingsAddHostAlias": [
+    "data",
+    "config"
+  ],
+  "unbound.settingsAddHostOverride": [
+    "data",
+    "config"
+  ],
+  "unbound.settingsDelAcl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "unbound.settingsDelForward": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "unbound.settingsDelHostAlias": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "unbound.settingsDelHostOverride": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "unbound.settingsGet": [
+    "config"
+  ],
+  "unbound.settingsGetAcl": [
+    "uuid",
+    "config"
+  ],
+  "unbound.settingsGetForward": [
+    "uuid",
+    "config"
+  ],
+  "unbound.settingsGetHostAlias": [
+    "uuid",
+    "config"
+  ],
+  "unbound.settingsGetHostOverride": [
+    "uuid",
+    "config"
+  ],
+  "unbound.settingsGetNameservers": [
+    "config"
+  ],
+  "unbound.settingsSet": [
+    "data",
+    "config"
+  ],
+  "unbound.settingsSetAcl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "unbound.settingsSetForward": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "unbound.settingsSetHostAlias": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "unbound.settingsSetHostOverride": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "unbound.settingsToggleAcl": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "unbound.settingsToggleForward": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "unbound.settingsToggleHostAlias": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "unbound.settingsToggleHostOverride": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "unbound.settingsUpdateBlocklist": [
+    "data",
+    "config"
+  ],
+  "wireguard.clientAddClientBuilder": [
+    "data",
+    "config"
+  ],
+  "wireguard.clientDelClient": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "wireguard.clientGet": [
+    "config"
+  ],
+  "wireguard.clientGetClient": [
+    "uuid",
+    "config"
+  ],
+  "wireguard.clientGetClientBuilder": [
+    "config"
+  ],
+  "wireguard.clientGetServerInfo": [
+    "uuid",
+    "config"
+  ],
+  "wireguard.clientListServers": [
+    "config"
+  ],
+  "wireguard.clientPsk": [
+    "config"
+  ],
+  "wireguard.clientSet": [
+    "data",
+    "config"
+  ],
+  "wireguard.clientSetClient": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "wireguard.clientToggleClient": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "wireguard.generalGet": [
+    "config"
+  ],
+  "wireguard.generalSet": [
+    "data",
+    "config"
+  ],
+  "wireguard.serverAddServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "wireguard.serverDelServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "wireguard.serverGet": [
+    "config"
+  ],
+  "wireguard.serverGetServer": [
+    "uuid",
+    "config"
+  ],
+  "wireguard.serverKeyPair": [
+    "config"
+  ],
+  "wireguard.serverSet": [
+    "data",
+    "config"
+  ],
+  "wireguard.serverSetServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "wireguard.serverToggleServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "wireguard.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "wireguard.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "wireguard.serviceShow": [
+    "config"
+  ],
+  "wireguard.serviceStart": [
+    "data",
+    "config"
+  ],
+  "wireguard.serviceStatus": [
+    "config"
+  ],
+  "wireguard.serviceStop": [
+    "data",
+    "config"
+  ],
+  "core.backupDeleteBackup": [
+    "backup",
+    "config"
+  ],
+  "core.backupDiff": [
+    "host",
+    "backup1",
+    "backup2",
+    "config"
+  ],
+  "core.backupDownload": [
+    "host",
+    "backup",
+    "config"
+  ],
+  "core.backupProviders": [
+    "config"
+  ],
+  "core.backupRevertBackup": [
+    "backup",
+    "config"
+  ],
+  "core.dashboardGetDashboard": [
+    "config"
+  ],
+  "core.dashboardPicture": [
+    "config"
+  ],
+  "core.dashboardProductInfoFeed": [
+    "config"
+  ],
+  "core.dashboardRestoreDefaults": [
+    "data",
+    "config"
+  ],
+  "core.dashboardSaveWidgets": [
+    "data",
+    "config"
+  ],
+  "core.hasyncGet": [
+    "config"
+  ],
+  "core.hasyncReconfigure": [
+    "data",
+    "config"
+  ],
+  "core.hasyncSet": [
+    "data",
+    "config"
+  ],
+  "core.hasyncStatusRemoteService": [
+    "action",
+    "service",
+    "serviceId",
+    "config"
+  ],
+  "core.hasyncStatusRestart": [
+    "service",
+    "serviceId",
+    "data",
+    "config"
+  ],
+  "core.hasyncStatusRestartAll": [
+    "service",
+    "serviceId",
+    "data",
+    "config"
+  ],
+  "core.hasyncStatusServices": [
+    "config"
+  ],
+  "core.hasyncStatusStart": [
+    "service",
+    "serviceId",
+    "data",
+    "config"
+  ],
+  "core.hasyncStatusStop": [
+    "service",
+    "serviceId",
+    "data",
+    "config"
+  ],
+  "core.hasyncStatusVersion": [
+    "config"
+  ],
+  "core.menuSearch": [
+    "config"
+  ],
+  "core.menuTree": [
+    "config"
+  ],
+  "core.serviceRestart": [
+    "name",
+    "id",
+    "data",
+    "config"
+  ],
+  "core.serviceSearch": [
+    "config"
+  ],
+  "core.serviceStart": [
+    "name",
+    "id",
+    "data",
+    "config"
+  ],
+  "core.serviceStop": [
+    "name",
+    "id",
+    "data",
+    "config"
+  ],
+  "core.snapshotsActivate": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "core.snapshotsAdd": [
+    "data",
+    "config"
+  ],
+  "core.snapshotsDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "core.snapshotsGet": [
+    "uuid",
+    "config"
+  ],
+  "core.snapshotsIsSupported": [
+    "config"
+  ],
+  "core.snapshotsSearch": [
+    "config"
+  ],
+  "core.snapshotsSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "core.systemDismissStatus": [
+    "data",
+    "config"
+  ],
+  "core.systemHalt": [
+    "data",
+    "config"
+  ],
+  "core.systemReboot": [
+    "data",
+    "config"
+  ],
+  "core.systemStatus": [
+    "config"
+  ],
+  "core.tunablesAddItem": [
+    "data",
+    "config"
+  ],
+  "core.tunablesDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "core.tunablesGet": [
+    "config"
+  ],
+  "core.tunablesGetItem": [
+    "uuid",
+    "config"
+  ],
+  "core.tunablesReconfigure": [
+    "data",
+    "config"
+  ],
+  "core.tunablesReset": [
+    "data",
+    "config"
+  ],
+  "core.tunablesSet": [
+    "data",
+    "config"
+  ],
+  "core.tunablesSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "auth.groupDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "auth.groupGet": [
+    "uuid",
+    "config"
+  ],
+  "auth.groupSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "auth.privGet": [
+    "config"
+  ],
+  "auth.privGetItem": [
+    "id",
+    "config"
+  ],
+  "auth.privSearch": [
+    "config"
+  ],
+  "auth.privSet": [
+    "data",
+    "config"
+  ],
+  "auth.privSetItem": [
+    "id",
+    "data",
+    "config"
+  ],
+  "auth.userAdd": [
+    "data",
+    "config"
+  ],
+  "auth.userAddApiKey": [
+    "username",
+    "data",
+    "config"
+  ],
+  "auth.userDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "auth.userDelApiKey": [
+    "id",
+    "data",
+    "config"
+  ],
+  "auth.userDownload": [
+    "config"
+  ],
+  "auth.userGet": [
+    "uuid",
+    "config"
+  ],
+  "auth.userNewOtpSeed": [
+    "config"
+  ],
+  "auth.userSearchApiKey": [
+    "config"
+  ],
+  "auth.userSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "auth.userUpload": [
+    "data",
+    "config"
+  ],
+  "firewall.aliasDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.aliasGet": [
+    "config"
+  ],
+  "firewall.aliasGetAliasUUID": [
+    "name",
+    "config"
+  ],
+  "firewall.aliasGetGeoIP": [
+    "config"
+  ],
+  "firewall.aliasGetItem": [
+    "uuid",
+    "config"
+  ],
+  "firewall.aliasGetTableSize": [
+    "config"
+  ],
+  "firewall.aliasImport": [
+    "data",
+    "config"
+  ],
+  "firewall.aliasListCategories": [
+    "config"
+  ],
+  "firewall.aliasListCountries": [
+    "config"
+  ],
+  "firewall.aliasListNetworkAliases": [
+    "config"
+  ],
+  "firewall.aliasListUserGroups": [
+    "config"
+  ],
+  "firewall.aliasReconfigure": [
+    "data",
+    "config"
+  ],
+  "firewall.aliasSet": [
+    "data",
+    "config"
+  ],
+  "firewall.aliasSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.aliasToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "firewall.aliasUtilAdd": [
+    "alias",
+    "data",
+    "config"
+  ],
+  "firewall.aliasUtilAliases": [
+    "config"
+  ],
+  "firewall.aliasUtilDelete": [
+    "alias",
+    "data",
+    "config"
+  ],
+  "firewall.aliasUtilFindReferences": [
+    "data",
+    "config"
+  ],
+  "firewall.aliasUtilFlush": [
+    "alias",
+    "data",
+    "config"
+  ],
+  "firewall.aliasUtilList": [
+    "alias",
+    "config"
+  ],
+  "firewall.aliasUtilUpdateBogons": [
+    "config"
+  ],
+  "firewall.categoryAddItem": [
+    "data",
+    "config"
+  ],
+  "firewall.categoryDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.categoryGet": [
+    "config"
+  ],
+  "firewall.categoryGetItem": [
+    "uuid",
+    "config"
+  ],
+  "firewall.categorySet": [
+    "data",
+    "config"
+  ],
+  "firewall.categorySetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.filterBaseApply": [
+    "rollbackRevision",
+    "data",
+    "config"
+  ],
+  "firewall.filterBaseCancelRollback": [
+    "rollbackRevision",
+    "data",
+    "config"
+  ],
+  "firewall.filterBaseGet": [
+    "config"
+  ],
+  "firewall.filterBaseListCategories": [
+    "config"
+  ],
+  "firewall.filterBaseListNetworkSelectOptions": [
+    "config"
+  ],
+  "firewall.filterBaseRevert": [
+    "revision",
+    "data",
+    "config"
+  ],
+  "firewall.filterBaseSavepoint": [
+    "data",
+    "config"
+  ],
+  "firewall.filterBaseSet": [
+    "data",
+    "config"
+  ],
+  "firewall.filterAddRule": [
+    "data",
+    "config"
+  ],
+  "firewall.filterDelRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.filterGetInterfaceList": [
+    "config"
+  ],
+  "firewall.filterGetRule": [
+    "uuid",
+    "config"
+  ],
+  "firewall.filterMoveRuleBefore": [
+    "selectedUuid",
+    "targetUuid",
+    "data",
+    "config"
+  ],
+  "firewall.filterSetRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.filterToggleRule": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "firewall.filterUtilRuleStats": [
+    "config"
+  ],
+  "firewall.groupAddItem": [
+    "data",
+    "config"
+  ],
+  "firewall.groupDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.groupGet": [
+    "config"
+  ],
+  "firewall.groupGetItem": [
+    "uuid",
+    "config"
+  ],
+  "firewall.groupReconfigure": [
+    "data",
+    "config"
+  ],
+  "firewall.groupSet": [
+    "data",
+    "config"
+  ],
+  "firewall.groupSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.nptAddRule": [
+    "data",
+    "config"
+  ],
+  "firewall.nptDelRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.nptGetRule": [
+    "uuid",
+    "config"
+  ],
+  "firewall.nptSetRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.nptToggleRule": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "firewall.oneToOneAddRule": [
+    "data",
+    "config"
+  ],
+  "firewall.oneToOneDelRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.oneToOneGetRule": [
+    "uuid",
+    "config"
+  ],
+  "firewall.oneToOneSetRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.oneToOneToggleRule": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "firewall.sourceNatAddRule": [
+    "data",
+    "config"
+  ],
+  "firewall.sourceNatDelRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.sourceNatGetRule": [
+    "uuid",
+    "config"
+  ],
+  "firewall.sourceNatSetRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "firewall.sourceNatToggleRule": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "interfaces.gifSettingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.gifSettingsGet": [
+    "config"
+  ],
+  "interfaces.gifSettingsGetIfOptions": [
+    "config"
+  ],
+  "interfaces.gifSettingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "interfaces.gifSettingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "interfaces.gifSettingsSet": [
+    "data",
+    "config"
+  ],
+  "interfaces.gifSettingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.greSettingsAddItem": [
+    "data",
+    "config"
+  ],
+  "interfaces.greSettingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.greSettingsGet": [
+    "config"
+  ],
+  "interfaces.greSettingsGetIfOptions": [
+    "config"
+  ],
+  "interfaces.greSettingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "interfaces.greSettingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "interfaces.greSettingsSet": [
+    "data",
+    "config"
+  ],
+  "interfaces.greSettingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.laggSettingsAddItem": [
+    "data",
+    "config"
+  ],
+  "interfaces.laggSettingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.laggSettingsGet": [
+    "config"
+  ],
+  "interfaces.laggSettingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "interfaces.laggSettingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "interfaces.laggSettingsSet": [
+    "data",
+    "config"
+  ],
+  "interfaces.laggSettingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.loopbackSettingsAddItem": [
+    "data",
+    "config"
+  ],
+  "interfaces.loopbackSettingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.loopbackSettingsGet": [
+    "config"
+  ],
+  "interfaces.loopbackSettingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "interfaces.loopbackSettingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "interfaces.loopbackSettingsSet": [
+    "data",
+    "config"
+  ],
+  "interfaces.loopbackSettingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.neighborSettingsAddItem": [
+    "data",
+    "config"
+  ],
+  "interfaces.neighborSettingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.neighborSettingsGet": [
+    "config"
+  ],
+  "interfaces.neighborSettingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "interfaces.neighborSettingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "interfaces.neighborSettingsSet": [
+    "data",
+    "config"
+  ],
+  "interfaces.neighborSettingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.overviewExport": [
+    "config"
+  ],
+  "interfaces.overviewGetInterface": [
+    "interfaceName",
+    "config"
+  ],
+  "interfaces.overviewInterfacesInfo": [
+    "details",
+    "config"
+  ],
+  "interfaces.overviewReloadInterface": [
+    "identifier",
+    "config"
+  ],
+  "interfaces.vipSettingsAddItem": [
+    "data",
+    "config"
+  ],
+  "interfaces.vipSettingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.vipSettingsGet": [
+    "config"
+  ],
+  "interfaces.vipSettingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "interfaces.vipSettingsGetUnusedVhid": [
+    "config"
+  ],
+  "interfaces.vipSettingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "interfaces.vipSettingsSet": [
+    "data",
+    "config"
+  ],
+  "interfaces.vipSettingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.vlanSettingsAddItem": [
+    "data",
+    "config"
+  ],
+  "interfaces.vlanSettingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.vlanSettingsGet": [
+    "config"
+  ],
+  "interfaces.vlanSettingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "interfaces.vlanSettingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "interfaces.vlanSettingsSet": [
+    "data",
+    "config"
+  ],
+  "interfaces.vlanSettingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.vxlanSettingsAddItem": [
+    "data",
+    "config"
+  ],
+  "interfaces.vxlanSettingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "interfaces.vxlanSettingsGet": [
+    "config"
+  ],
+  "interfaces.vxlanSettingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "interfaces.vxlanSettingsReconfigure": [
+    "data",
+    "config"
+  ],
+  "interfaces.vxlanSettingsSet": [
+    "data",
+    "config"
+  ],
+  "interfaces.vxlanSettingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.accountsDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.accountsGet": [
+    "uuid",
+    "config"
+  ],
+  "plugins.acmeclient.accountsRegister": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.accountsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.accountsToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.accountsUpdate": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.actionsAdd": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.actionsDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.actionsGet": [
+    "uuid",
+    "config"
+  ],
+  "plugins.acmeclient.actionsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.actionsSftpGetIdentity": [
+    "config"
+  ],
+  "plugins.acmeclient.actionsSftpTestConnection": [
+    "config"
+  ],
+  "plugins.acmeclient.actionsSshGetIdentity": [
+    "config"
+  ],
+  "plugins.acmeclient.actionsSshTestConnection": [
+    "config"
+  ],
+  "plugins.acmeclient.actionsToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.actionsUpdate": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesAdd": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesAutomation": [
+    "uuid",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesGet": [
+    "uuid",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesImport": [
+    "uuid",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesRemovekey": [
+    "uuid",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesRevoke": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesSet": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesSign": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.certificatesUpdate": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.serviceConfigtest": [
+    "config"
+  ],
+  "plugins.acmeclient.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.serviceReset": [
+    "config"
+  ],
+  "plugins.acmeclient.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.serviceSignallcerts": [
+    "config"
+  ],
+  "plugins.acmeclient.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.serviceStatus": [
+    "config"
+  ],
+  "plugins.acmeclient.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.settingsFetchCronIntegration": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.settingsFetchHAProxyIntegration": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.settingsGet": [
+    "config"
+  ],
+  "plugins.acmeclient.settingsGetBindPluginStatus": [
+    "config"
+  ],
+  "plugins.acmeclient.settingsGetGcloudPluginStatus": [
+    "config"
+  ],
+  "plugins.acmeclient.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.validationsAdd": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.validationsDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.validationsGet": [
+    "uuid",
+    "config"
+  ],
+  "plugins.acmeclient.validationsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.validationsToggle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.acmeclient.validationsUpdate": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.apcupsd.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.apcupsd.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.apcupsd.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.apcupsd.serviceStatus": [
+    "config"
+  ],
+  "plugins.apcupsd.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.apcupsd.settingsGet": [
+    "config"
+  ],
+  "plugins.apcupsd.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.aclDelAcl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.aclGet": [
+    "config"
+  ],
+  "plugins.bind.aclGetAcl": [
+    "uuid",
+    "config"
+  ],
+  "plugins.bind.aclSet": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.aclSetAcl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.aclToggleAcl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.dnsblGet": [
+    "config"
+  ],
+  "plugins.bind.dnsblSet": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.domainAddPrimaryDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.domainAddSecondaryDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.domainDelDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.domainGet": [
+    "config"
+  ],
+  "plugins.bind.domainGetDomain": [
+    "uuid",
+    "config"
+  ],
+  "plugins.bind.domainSearchMasterDomain": [
+    "config"
+  ],
+  "plugins.bind.domainSearchSlaveDomain": [
+    "config"
+  ],
+  "plugins.bind.domainSet": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.domainSetDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.domainToggleDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.generalGet": [
+    "config"
+  ],
+  "plugins.bind.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.generalZoneshow": [
+    "zonename",
+    "config"
+  ],
+  "plugins.bind.generalZonetest": [
+    "zonename",
+    "config"
+  ],
+  "plugins.bind.recordAddRecord": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.recordDelRecord": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.recordGet": [
+    "config"
+  ],
+  "plugins.bind.recordGetRecord": [
+    "uuid",
+    "config"
+  ],
+  "plugins.bind.recordSet": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.recordSetRecord": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.recordToggleRecord": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.bind.serviceDnsbl": [
+    "config"
+  ],
+  "plugins.bind.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.bind.serviceStatus": [
+    "config"
+  ],
+  "plugins.bind.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.diagnosticsConfig": [
+    "config"
+  ],
+  "plugins.caddy.diagnosticsGet": [
+    "config"
+  ],
+  "plugins.caddy.diagnosticsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.generalGet": [
+    "config"
+  ],
+  "plugins.caddy.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyAddAccessList": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyAddBasicAuth": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyAddHandle": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyAddHeader": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyAddLayer4": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyAddLayer4Openvpn": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyAddReverseProxy": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyAddSubdomain": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyDelAccessList": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyDelBasicAuth": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyDelHandle": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyDelHeader": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyDelLayer4": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyDelLayer4Openvpn": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyDelReverseProxy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyDelSubdomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGet": [
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetAccessList": [
+    "uuid",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetAllReverseDomains": [
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetBasicAuth": [
+    "uuid",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetHandle": [
+    "uuid",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetHeader": [
+    "uuid",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetLayer4": [
+    "uuid",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetLayer4Openvpn": [
+    "uuid",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetReverseProxy": [
+    "uuid",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyGetSubdomain": [
+    "uuid",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySet": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySetAccessList": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySetBasicAuth": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySetHandle": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySetHeader": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySetLayer4": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySetLayer4Openvpn": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySetReverseProxy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxySetSubdomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyToggleHandle": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyToggleLayer4": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyToggleLayer4Openvpn": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyToggleReverseProxy": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.reverseProxyToggleSubdomain": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.caddy.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.serviceStatus": [
+    "config"
+  ],
+  "plugins.caddy.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.caddy.serviceValidate": [
+    "config"
+  ],
+  "plugins.chrony.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.chrony.serviceChronyauthdata": [
+    "config"
+  ],
+  "plugins.chrony.serviceChronysources": [
+    "config"
+  ],
+  "plugins.chrony.serviceChronysourcestats": [
+    "config"
+  ],
+  "plugins.chrony.serviceChronytracking": [
+    "config"
+  ],
+  "plugins.chrony.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.chrony.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.chrony.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.chrony.serviceStatus": [
+    "config"
+  ],
+  "plugins.chrony.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.cicap.antivirusSet": [
+    "data",
+    "config"
+  ],
+  "plugins.cicap.generalGet": [
+    "config"
+  ],
+  "plugins.cicap.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.cicap.serviceCheckclamav": [
+    "config"
+  ],
+  "plugins.cicap.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.cicap.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.cicap.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.cicap.serviceStatus": [
+    "config"
+  ],
+  "plugins.cicap.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.serviceFreshclam": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.serviceStatus": [
+    "config"
+  ],
+  "plugins.clamav.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.serviceVersion": [
+    "config"
+  ],
+  "plugins.clamav.urlAddUrl": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.urlDelUrl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.clamav.urlGet": [
+    "config"
+  ],
+  "plugins.clamav.urlGetUrl": [
+    "uuid",
+    "config"
+  ],
+  "plugins.clamav.urlSet": [
+    "data",
+    "config"
+  ],
+  "plugins.clamav.urlSetUrl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.clamav.urlToggleUrl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.collectd.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.collectd.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.collectd.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.collectd.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.collectd.serviceStatus": [
+    "config"
+  ],
+  "plugins.collectd.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.crowdsec.bouncersGet": [
+    "config"
+  ],
+  "plugins.crowdsec.decisionsDelete": [
+    "decisionId",
+    "config"
+  ],
+  "plugins.crowdsec.decisionsGet": [
+    "config"
+  ],
+  "plugins.crowdsec.generalGet": [
+    "config"
+  ],
+  "plugins.crowdsec.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.crowdsec.hubGet": [
+    "config"
+  ],
+  "plugins.crowdsec.machinesGet": [
+    "config"
+  ],
+  "plugins.crowdsec.serviceDebug": [
+    "config"
+  ],
+  "plugins.crowdsec.serviceReload": [
+    "data",
+    "config"
+  ],
+  "plugins.crowdsec.serviceStatus": [
+    "config"
+  ],
+  "plugins.crowdsec.versionGet": [
+    "config"
+  ],
+  "plugins.diagnostics.cpuUsageGetCPUType": [
+    "config"
+  ],
+  "plugins.diagnostics.cpuUsageStream": [
+    "config"
+  ],
+  "plugins.diagnostics.dnsReverseLookup": [
+    "config"
+  ],
+  "plugins.diagnostics.dnsDiagnosticsGet": [
+    "config"
+  ],
+  "plugins.diagnostics.dnsDiagnosticsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.firewallDelState": [
+    "stateid",
+    "creatorid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.firewallFlushSources": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.firewallFlushStates": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.firewallKillStates": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.firewallListRuleIds": [
+    "config"
+  ],
+  "plugins.diagnostics.firewallLog": [
+    "config"
+  ],
+  "plugins.diagnostics.firewallLogFilters": [
+    "config"
+  ],
+  "plugins.diagnostics.firewallPfStates": [
+    "config"
+  ],
+  "plugins.diagnostics.firewallPfStatistics": [
+    "section",
+    "config"
+  ],
+  "plugins.diagnostics.firewallQueryPfTop": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.firewallQueryStates": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.firewallStats": [
+    "config"
+  ],
+  "plugins.diagnostics.firewallStreamLog": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceCarpStatus": [
+    "status",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.interfaceDelRoute": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.interfaceFlushArp": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetArp": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetBpfStatistics": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetInterfaceConfig": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetInterfaceNames": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetInterfaceStatistics": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetMemoryStatistics": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetNdp": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetNetisrStatistics": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetPfsyncNodes": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetProtocolStatistics": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetRoutes": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetSocketStatistics": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceGetVipStatus": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceSearchArp": [
+    "config"
+  ],
+  "plugins.diagnostics.interfaceSearchNdp": [
+    "config"
+  ],
+  "plugins.diagnostics.lvtemplateAddItem": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.lvtemplateDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.lvtemplateGet": [
+    "config"
+  ],
+  "plugins.diagnostics.lvtemplateGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.diagnostics.lvtemplateSet": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.lvtemplateSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.netflowCacheStats": [
+    "config"
+  ],
+  "plugins.diagnostics.netflowGetconfig": [
+    "config"
+  ],
+  "plugins.diagnostics.netflowIsEnabled": [
+    "config"
+  ],
+  "plugins.diagnostics.netflowReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.netflowSetconfig": [
+    "config"
+  ],
+  "plugins.diagnostics.netflowStatus": [
+    "config"
+  ],
+  "plugins.diagnostics.networkinsightExport": [
+    "provider",
+    "fromDate",
+    "toDate",
+    "resolution",
+    "config"
+  ],
+  "plugins.diagnostics.networkinsightGetInterfaces": [
+    "config"
+  ],
+  "plugins.diagnostics.networkinsightGetMetadata": [
+    "config"
+  ],
+  "plugins.diagnostics.networkinsightGetProtocols": [
+    "config"
+  ],
+  "plugins.diagnostics.networkinsightGetServices": [
+    "config"
+  ],
+  "plugins.diagnostics.networkinsightTimeserie": [
+    "provider",
+    "measure",
+    "fromDate",
+    "toDate",
+    "resolution",
+    "field",
+    "emulation",
+    "config"
+  ],
+  "plugins.diagnostics.networkinsightTop": [
+    "provider",
+    "fromDate",
+    "toDate",
+    "field",
+    "measure",
+    "maxHits",
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureDownload": [
+    "jobid",
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureGet": [
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureMacInfo": [
+    "macaddr",
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureRemove": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureSearchJobs": [
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureSet": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureStart": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureStop": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.packetCaptureView": [
+    "jobid",
+    "detail",
+    "config"
+  ],
+  "plugins.diagnostics.pingGet": [
+    "config"
+  ],
+  "plugins.diagnostics.pingRemove": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.pingSearchJobs": [
+    "config"
+  ],
+  "plugins.diagnostics.pingSet": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.pingStart": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.pingStop": [
+    "jobid",
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.portprobeGet": [
+    "config"
+  ],
+  "plugins.diagnostics.portprobeSet": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.systemMemory": [
+    "config"
+  ],
+  "plugins.diagnostics.systemSystemDisk": [
+    "config"
+  ],
+  "plugins.diagnostics.systemSystemInformation": [
+    "config"
+  ],
+  "plugins.diagnostics.systemSystemMbuf": [
+    "config"
+  ],
+  "plugins.diagnostics.systemSystemResources": [
+    "config"
+  ],
+  "plugins.diagnostics.systemSystemSwap": [
+    "config"
+  ],
+  "plugins.diagnostics.systemSystemTemperature": [
+    "config"
+  ],
+  "plugins.diagnostics.systemSystemTime": [
+    "config"
+  ],
+  "plugins.diagnostics.systemhealthExportAsCSV": [
+    "rrd",
+    "detail",
+    "config"
+  ],
+  "plugins.diagnostics.systemhealthGetInterfaces": [
+    "config"
+  ],
+  "plugins.diagnostics.systemhealthGetRRDlist": [
+    "config"
+  ],
+  "plugins.diagnostics.systemhealthGetSystemHealth": [
+    "rrd",
+    "unused",
+    "detail",
+    "config"
+  ],
+  "plugins.diagnostics.tracerouteGet": [
+    "config"
+  ],
+  "plugins.diagnostics.tracerouteSet": [
+    "data",
+    "config"
+  ],
+  "plugins.diagnostics.trafficInterface": [
+    "config"
+  ],
+  "plugins.diagnostics.trafficTop": [
+    "interfaces",
+    "config"
+  ],
+  "plugins.diagnostics.trafficStream": [
+    "pollInterval",
+    "config"
+  ],
+  "plugins.dnscryptproxy.cloakDelCloak": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.cloakGet": [
+    "config"
+  ],
+  "plugins.dnscryptproxy.cloakGetCloak": [
+    "uuid",
+    "config"
+  ],
+  "plugins.dnscryptproxy.cloakSet": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.cloakSetCloak": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.cloakToggleCloak": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.dnsblGet": [
+    "config"
+  ],
+  "plugins.dnscryptproxy.dnsblSet": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.forwardAddForward": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.forwardDelForward": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.forwardGet": [
+    "config"
+  ],
+  "plugins.dnscryptproxy.forwardGetForward": [
+    "uuid",
+    "config"
+  ],
+  "plugins.dnscryptproxy.forwardSet": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.forwardSetForward": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.forwardToggleForward": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.generalGet": [
+    "config"
+  ],
+  "plugins.dnscryptproxy.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serverAddServer": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serverDelServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serverGet": [
+    "config"
+  ],
+  "plugins.dnscryptproxy.serverGetServer": [
+    "uuid",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serverSet": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serverSetServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serverToggleServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serviceDnsbl": [
+    "config"
+  ],
+  "plugins.dnscryptproxy.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.serviceStatus": [
+    "config"
+  ],
+  "plugins.dnscryptproxy.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.whitelistAddWhitelist": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.whitelistDelWhitelist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.whitelistGet": [
+    "config"
+  ],
+  "plugins.dnscryptproxy.whitelistGetWhitelist": [
+    "uuid",
+    "config"
+  ],
+  "plugins.dnscryptproxy.whitelistSet": [
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.whitelistSetWhitelist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dnscryptproxy.whitelistToggleWhitelist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.accountsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.accountsGet": [
+    "config"
+  ],
+  "plugins.dyndns.accountsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.dyndns.accountsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.accountsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.accountsToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.serviceStatus": [
+    "config"
+  ],
+  "plugins.dyndns.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.dyndns.settingsGet": [
+    "config"
+  ],
+  "plugins.dyndns.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.avpairDelAvpair": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.avpairGet": [
+    "config"
+  ],
+  "plugins.freeradius.avpairGetAvpair": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.avpairSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.avpairSetAvpair": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.avpairToggleAvpair": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.clientAddClient": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.clientDelClient": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.clientGet": [
+    "config"
+  ],
+  "plugins.freeradius.clientGetClient": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.clientSearchClient": [
+    "config"
+  ],
+  "plugins.freeradius.clientSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.clientSetClient": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.clientToggleClient": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.dhcpAddDhcp": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.dhcpDelDhcp": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.dhcpGet": [
+    "config"
+  ],
+  "plugins.freeradius.dhcpGetDhcp": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.dhcpSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.dhcpSetDhcp": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.dhcpToggleDhcp": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.eapGet": [
+    "config"
+  ],
+  "plugins.freeradius.eapSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.generalGet": [
+    "config"
+  ],
+  "plugins.freeradius.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.ldapGet": [
+    "config"
+  ],
+  "plugins.freeradius.ldapSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.leaseAddLease": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.leaseDelLease": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.leaseGet": [
+    "config"
+  ],
+  "plugins.freeradius.leaseGetLease": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.leaseSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.leaseSetLease": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.leaseToggleLease": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxyAddHomeserver": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxyAddHomeserverpool": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxyAddRealm": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxyDelHomeserver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxyDelHomeserverpool": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxyDelRealm": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxyGet": [
+    "config"
+  ],
+  "plugins.freeradius.proxyGetHomeserver": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.proxyGetHomeserverpool": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.proxyGetRealm": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.proxySearchHomeserver": [
+    "config"
+  ],
+  "plugins.freeradius.proxySearchHomeserverpool": [
+    "config"
+  ],
+  "plugins.freeradius.proxySearchRealm": [
+    "config"
+  ],
+  "plugins.freeradius.proxySet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxySetHomeserver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxySetHomeserverpool": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxySetRealm": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.proxyToggleHomeserver": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.proxyToggleHomeserverpool": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.proxyToggleRealm": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.serviceStatus": [
+    "config"
+  ],
+  "plugins.freeradius.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.userAddUser": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.userDelUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.userGet": [
+    "config"
+  ],
+  "plugins.freeradius.userGetUser": [
+    "uuid",
+    "config"
+  ],
+  "plugins.freeradius.userSearchUser": [
+    "config"
+  ],
+  "plugins.freeradius.userSet": [
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.userSetUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.freeradius.userToggleUser": [
+    "uuid",
+    "config"
+  ],
+  "plugins.ftpproxy.serviceReload": [
+    "config"
+  ],
+  "plugins.ftpproxy.serviceRestart": [
+    "uuid",
+    "config"
+  ],
+  "plugins.ftpproxy.serviceStart": [
+    "uuid",
+    "config"
+  ],
+  "plugins.ftpproxy.serviceStatus": [
+    "uuid",
+    "config"
+  ],
+  "plugins.ftpproxy.serviceStop": [
+    "uuid",
+    "config"
+  ],
+  "plugins.ftpproxy.settingsAddProxy": [
+    "data",
+    "config"
+  ],
+  "plugins.ftpproxy.settingsDelProxy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.ftpproxy.settingsGetProxy": [
+    "uuid",
+    "config"
+  ],
+  "plugins.ftpproxy.settingsSearchProxy": [
+    "config"
+  ],
+  "plugins.ftpproxy.settingsSetProxy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.ftpproxy.settingsToggleProxy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.gridexample.settingsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.gridexample.settingsGet": [
+    "config"
+  ],
+  "plugins.gridexample.settingsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.gridexample.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.gridexample.settingsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.gridexample.settingsToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.exportDiff": [
+    "config"
+  ],
+  "plugins.haproxy.exportDownload": [
+    "type",
+    "config"
+  ],
+  "plugins.haproxy.maintenanceCertActions": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceCertDiff": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceCertSync": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceCertSyncBulk": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceFetchCronIntegration": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.maintenanceGet": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceSearchCertificateDiff": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceSearchServer": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceServerState": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceServerStateBulk": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceServerWeight": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceServerWeightBulk": [
+    "config"
+  ],
+  "plugins.haproxy.maintenanceSet": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.serviceConfigtest": [
+    "config"
+  ],
+  "plugins.haproxy.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.serviceStatus": [
+    "config"
+  ],
+  "plugins.haproxy.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddAcl": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddAction": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddBackend": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddCpu": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddErrorfile": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddFcgi": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddFrontend": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddGroup": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddHealthcheck": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddLua": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddMapfile": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddServer": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddUser": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddmailer": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsAddresolver": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelAcl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelAction": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelBackend": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelCpu": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelErrorfile": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelFcgi": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelFrontend": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelGroup": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelHealthcheck": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelLua": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelMapfile": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelmailer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsDelresolver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsGet": [
+    "config"
+  ],
+  "plugins.haproxy.settingsGetAcl": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetAction": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetBackend": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetCpu": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetErrorfile": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetFcgi": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetFrontend": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetGroup": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetHealthcheck": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetLua": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetMapfile": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetServer": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetUser": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetmailer": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsGetresolver": [
+    "uuid",
+    "config"
+  ],
+  "plugins.haproxy.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetAcl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetAction": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetBackend": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetCpu": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetErrorfile": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetFcgi": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetFrontend": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetGroup": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetHealthcheck": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetLua": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetMapfile": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetServer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetmailer": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsSetresolver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsToggleBackend": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsToggleCpu": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsToggleFrontend": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsToggleGroup": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsToggleLua": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsToggleServer": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsToggleUser": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsTogglemailer": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.settingsToggleresolver": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.haproxy.statisticsCounters": [
+    "config"
+  ],
+  "plugins.haproxy.statisticsInfo": [
+    "config"
+  ],
+  "plugins.haproxy.statisticsTables": [
+    "config"
+  ],
+  "plugins.helloworld.serviceTest": [
+    "data",
+    "config"
+  ],
+  "plugins.helloworld.settingsGet": [
+    "config"
+  ],
+  "plugins.helloworld.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.hwprobe.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.hwprobe.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.hwprobe.serviceReport": [
+    "config"
+  ],
+  "plugins.hwprobe.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.hwprobe.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.hwprobe.serviceStatus": [
+    "config"
+  ],
+  "plugins.hwprobe.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.iperf.instanceQuery": [
+    "config"
+  ],
+  "plugins.iperf.instanceSet": [
+    "data",
+    "config"
+  ],
+  "plugins.iperf.serviceRestart": [
+    "config"
+  ],
+  "plugins.iperf.serviceStart": [
+    "config"
+  ],
+  "plugins.iperf.serviceStatus": [
+    "config"
+  ],
+  "plugins.iperf.serviceStop": [
+    "config"
+  ],
+  "plugins.lldpd.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.lldpd.serviceNeighbor": [
+    "config"
+  ],
+  "plugins.lldpd.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.lldpd.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.lldpd.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.lldpd.serviceStatus": [
+    "config"
+  ],
+  "plugins.lldpd.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.sensorGet": [
+    "config"
+  ],
+  "plugins.maltrail.sensorSet": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serverGet": [
+    "config"
+  ],
+  "plugins.maltrail.serverSet": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serverserviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serverserviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serverserviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serverserviceStatus": [
+    "config"
+  ],
+  "plugins.maltrail.serverserviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.maltrail.serviceStatus": [
+    "config"
+  ],
+  "plugins.maltrail.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.mdnsrepeater.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.mdnsrepeater.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.mdnsrepeater.serviceStatus": [
+    "config"
+  ],
+  "plugins.mdnsrepeater.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.mdnsrepeater.settingsGet": [
+    "config"
+  ],
+  "plugins.mdnsrepeater.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.muninnode.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.muninnode.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.muninnode.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.muninnode.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.muninnode.serviceStatus": [
+    "config"
+  ],
+  "plugins.muninnode.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.ndproxy.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.ndproxy.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.ndproxy.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.ndproxy.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.ndproxy.serviceStatus": [
+    "config"
+  ],
+  "plugins.ndproxy.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.netdata.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.netdata.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.netdata.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.netdata.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.netdata.serviceStatus": [
+    "config"
+  ],
+  "plugins.netdata.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.serviceStatus": [
+    "config"
+  ],
+  "plugins.netsnmp.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.userAddUser": [
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.userDelUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.userGet": [
+    "config"
+  ],
+  "plugins.netsnmp.userGetUser": [
+    "uuid",
+    "config"
+  ],
+  "plugins.netsnmp.userSet": [
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.userSetUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.netsnmp.userToggleUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.bansGet": [
+    "config"
+  ],
+  "plugins.nginx.bansSet": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.logsAccesses": [
+    "uuid",
+    "fileno",
+    "page",
+    "perPage",
+    "query",
+    "config"
+  ],
+  "plugins.nginx.logsErrors": [
+    "uuid",
+    "fileno",
+    "page",
+    "perPage",
+    "query",
+    "config"
+  ],
+  "plugins.nginx.logsStreamaccesses": [
+    "uuid",
+    "fileno",
+    "page",
+    "perPage",
+    "query",
+    "config"
+  ],
+  "plugins.nginx.logsStreamerrors": [
+    "uuid",
+    "fileno",
+    "page",
+    "perPage",
+    "query",
+    "config"
+  ],
+  "plugins.nginx.logsTlsHandshakes": [
+    "config"
+  ],
+  "plugins.nginx.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.serviceStatus": [
+    "config"
+  ],
+  "plugins.nginx.serviceStop": [
+    "config"
+  ],
+  "plugins.nginx.serviceVts": [
+    "config"
+  ],
+  "plugins.nginx.settingsAddcachePath": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddcredential": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddcustompolicy": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAdderrorpage": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddhttprewrite": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddhttpserver": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddipacl": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddlimitRequestConnection": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddlimitZone": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddlocation": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddnaxsirule": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddresolver": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddsecurityHeader": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddsnifwd": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddstreamserver": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddsyslogTarget": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddtlsFingerprint": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddupstream": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAddupstreamserver": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsAdduserlist": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelcachePath": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelcredential": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelcustompolicy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelerrorpage": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelhttprewrite": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelhttpserver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelipacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDellimitRequestConnection": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDellimitZone": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDellocation": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelnaxsirule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelresolver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelsecurityHeader": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelsnifwd": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelstreamserver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelsyslogTarget": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDeltlsFingerprint": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelupstream": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDelupstreamserver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDeluserlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsDownloadrules": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsGet": [
+    "config"
+  ],
+  "plugins.nginx.settingsGetcachePath": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetcredential": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetcustompolicy": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGeterrorpage": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGethttprewrite": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGethttpserver": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetipacl": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetlimitRequestConnection": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetlimitZone": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetlocation": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetnaxsirule": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetresolver": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetsecurityHeader": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetsnifwd": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetstreamserver": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetsyslogTarget": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGettlsFingerprint": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetupstream": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetupstreamserver": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsGetuserlist": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nginx.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetcachePath": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetcredential": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetcustompolicy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSeterrorpage": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSethttprewrite": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSethttpserver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetipacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetlimitRequestConnection": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetlimitZone": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetlocation": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetnaxsirule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetresolver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetsecurityHeader": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetsnifwd": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetstreamserver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetsyslogTarget": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSettlsFingerprint": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetupstream": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetupstreamserver": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsSetuserlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nginx.settingsShowconfig": [
+    "config"
+  ],
+  "plugins.nginx.settingsTestconfig": [
+    "config"
+  ],
+  "plugins.nodeexporter.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.nodeexporter.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.nodeexporter.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.nodeexporter.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.nodeexporter.serviceStatus": [
+    "config"
+  ],
+  "plugins.nodeexporter.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.commandDelCommand": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.commandGet": [
+    "config"
+  ],
+  "plugins.nrpe.commandGetCommand": [
+    "uuid",
+    "config"
+  ],
+  "plugins.nrpe.commandSet": [
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.commandSetCommand": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.commandToggleCommand": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.generalGet": [
+    "config"
+  ],
+  "plugins.nrpe.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.nrpe.serviceStatus": [
+    "config"
+  ],
+  "plugins.nrpe.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.ntopng.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.ntopng.serviceCheckredis": [
+    "config"
+  ],
+  "plugins.ntopng.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.ntopng.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.ntopng.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.ntopng.serviceStatus": [
+    "config"
+  ],
+  "plugins.ntopng.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.nut.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.nut.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.nut.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.nut.serviceStatus": [
+    "config"
+  ],
+  "plugins.nut.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.nut.settingsGet": [
+    "config"
+  ],
+  "plugins.nut.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.openconnect.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.openconnect.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.openconnect.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.openconnect.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.openconnect.serviceStatus": [
+    "config"
+  ],
+  "plugins.openconnect.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.addressDelAddress": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.addressGet": [
+    "config"
+  ],
+  "plugins.postfix.addressGetAddress": [
+    "uuid",
+    "config"
+  ],
+  "plugins.postfix.addressSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.addressSetAddress": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.addressToggleAddress": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.antispamGet": [
+    "config"
+  ],
+  "plugins.postfix.antispamSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.domainAddDomain": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.domainDelDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.domainGet": [
+    "config"
+  ],
+  "plugins.postfix.domainGetDomain": [
+    "uuid",
+    "config"
+  ],
+  "plugins.postfix.domainSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.domainSetDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.domainToggleDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.generalGet": [
+    "config"
+  ],
+  "plugins.postfix.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.headerchecksAddHeadercheck": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.headerchecksDelHeadercheck": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.headerchecksGet": [
+    "config"
+  ],
+  "plugins.postfix.headerchecksGetHeadercheck": [
+    "uuid",
+    "config"
+  ],
+  "plugins.postfix.headerchecksSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.headerchecksSetHeadercheck": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.headerchecksToggleHeadercheck": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientAddRecipient": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientDelRecipient": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientGet": [
+    "config"
+  ],
+  "plugins.postfix.recipientGetRecipient": [
+    "uuid",
+    "config"
+  ],
+  "plugins.postfix.recipientSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientSetRecipient": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientToggleRecipient": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientbccAddRecipientbcc": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientbccDelRecipientbcc": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientbccGet": [
+    "config"
+  ],
+  "plugins.postfix.recipientbccGetRecipientbcc": [
+    "uuid",
+    "config"
+  ],
+  "plugins.postfix.recipientbccSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientbccSetRecipientbcc": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.recipientbccToggleRecipientbcc": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderAddSender": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderDelSender": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderGet": [
+    "config"
+  ],
+  "plugins.postfix.senderGetSender": [
+    "uuid",
+    "config"
+  ],
+  "plugins.postfix.senderSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderSetSender": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderToggleSender": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderbccAddSenderbcc": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderbccDelSenderbcc": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderbccGet": [
+    "config"
+  ],
+  "plugins.postfix.senderbccGetSenderbcc": [
+    "uuid",
+    "config"
+  ],
+  "plugins.postfix.senderbccSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderbccSetSenderbcc": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.senderbccToggleSenderbcc": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.sendercanonicalAddSendercanonical": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.sendercanonicalDelSendercanonical": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.sendercanonicalGet": [
+    "config"
+  ],
+  "plugins.postfix.sendercanonicalGetSendercanonical": [
+    "uuid",
+    "config"
+  ],
+  "plugins.postfix.sendercanonicalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.sendercanonicalSetSendercanonical": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.sendercanonicalToggleSendercanonical": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.postfix.serviceCheckrspamd": [
+    "config"
+  ],
+  "plugins.postfix.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.postfix.serviceStatus": [
+    "config"
+  ],
+  "plugins.postfix.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.serviceFetchacls": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.serviceRefreshTemplate": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.serviceReset": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.serviceRestart": [
+    "config"
+  ],
+  "plugins.proxy.serviceStart": [
+    "config"
+  ],
+  "plugins.proxy.serviceStatus": [
+    "config"
+  ],
+  "plugins.proxy.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsAddPACMatch": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsAddPACProxy": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsAddPACRule": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsAddRemoteBlacklist": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsDelPACMatch": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsDelPACProxy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsDelPACRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsDelRemoteBlacklist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsFetchRBCron": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsGet": [
+    "config"
+  ],
+  "plugins.proxy.settingsGetPACMatch": [
+    "uuid",
+    "config"
+  ],
+  "plugins.proxy.settingsGetPACProxy": [
+    "uuid",
+    "config"
+  ],
+  "plugins.proxy.settingsGetPACRule": [
+    "uuid",
+    "config"
+  ],
+  "plugins.proxy.settingsGetRemoteBlacklist": [
+    "uuid",
+    "config"
+  ],
+  "plugins.proxy.settingsSearchRemoteBlacklists": [
+    "config"
+  ],
+  "plugins.proxy.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsSetPACMatch": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsSetPACProxy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsSetPACRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsSetRemoteBlacklist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsTogglePACRule": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.settingsToggleRemoteBlacklist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.templateGet": [
+    "config"
+  ],
+  "plugins.proxy.templateReset": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.templateSet": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclAddCustomPolicy": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclAddPolicy": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclApply": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclDelCustomPolicy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclDelPolicy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclGet": [
+    "config"
+  ],
+  "plugins.proxy.aclGetCustomPolicy": [
+    "uuid",
+    "config"
+  ],
+  "plugins.proxy.aclGetPolicy": [
+    "uuid",
+    "config"
+  ],
+  "plugins.proxy.aclSet": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclSetCustomPolicy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclSetPolicy": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclTest": [
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclToggleCustomPolicy": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.proxy.aclTogglePolicy": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.proxysso.serviceDeletekeytab": [
+    "config"
+  ],
+  "plugins.proxysso.serviceGetCheckList": [
+    "config"
+  ],
+  "plugins.proxysso.serviceShowkeytab": [
+    "config"
+  ],
+  "plugins.proxysso.serviceTestkerblogin": [
+    "data",
+    "config"
+  ],
+  "plugins.proxysso.settingsGet": [
+    "config"
+  ],
+  "plugins.proxysso.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.puppetagent.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.puppetagent.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.puppetagent.serviceStatus": [
+    "config"
+  ],
+  "plugins.puppetagent.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.puppetagent.settingsGet": [
+    "config"
+  ],
+  "plugins.puppetagent.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.qemuguestagent.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.qemuguestagent.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.qemuguestagent.serviceStatus": [
+    "config"
+  ],
+  "plugins.qemuguestagent.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.qemuguestagent.settingsGet": [
+    "config"
+  ],
+  "plugins.qemuguestagent.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bfdDelNeighbor": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bfdGet": [
+    "config"
+  ],
+  "plugins.quagga.bfdGetNeighbor": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.bfdSet": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bfdSetNeighbor": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bfdToggleNeighbor": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpAddAspath": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpAddCommunitylist": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpAddNeighbor": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpAddPeergroup": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpAddPrefixlist": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpAddRedistribution": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpAddRoutemap": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpDelAspath": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpDelCommunitylist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpDelNeighbor": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpDelPeergroup": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpDelPrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpDelRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpDelRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpGet": [
+    "config"
+  ],
+  "plugins.quagga.bgpGetAspath": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.bgpGetCommunitylist": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.bgpGetNeighbor": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.bgpGetPeergroup": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.bgpGetPrefixlist": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.bgpGetRedistribution": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.bgpGetRoutemap": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.bgpSet": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpSetAspath": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpSetCommunitylist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpSetNeighbor": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpSetPeergroup": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpSetPrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpSetRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpSetRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpToggleAspath": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpToggleCommunitylist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpToggleNeighbor": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpTogglePeergroup": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpTogglePrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpToggleRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.bgpToggleRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.diagnosticsBfdcounters": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsBfdneighbors": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsBfdsummary": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsBgpneighbors": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsBgpsummary": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsGeneralrunningconfig": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsOspfdatabase": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsOspfinterface": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsOspfoverview": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsOspfv3interface": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsOspfv3overview": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsSearchBgproute4": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsSearchBgproute6": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsSearchGeneralroute4": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsSearchGeneralroute6": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsSearchOspfneighbor": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsSearchOspfroute": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsSearchOspfv3database": [
+    "config"
+  ],
+  "plugins.quagga.diagnosticsSearchOspfv3route": [
+    "format",
+    "config"
+  ],
+  "plugins.quagga.generalGet": [
+    "config"
+  ],
+  "plugins.quagga.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsAddInterface": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsAddNetwork": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsAddPrefixlist": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsAddRedistribution": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsAddRoutemap": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsDelInterface": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsDelNetwork": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsDelPrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsDelRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsDelRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsGet": [
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsGetInterface": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsGetNetwork": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsGetPrefixlist": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsGetRedistribution": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsGetRoutemap": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsSetInterface": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsSetNetwork": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsSetPrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsSetRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsSetRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsToggleInterface": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsToggleNetwork": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsTogglePrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsToggleRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospf6settingsToggleRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsAddInterface": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsAddNetwork": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsAddPrefixlist": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsAddRedistribution": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsAddRoutemap": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsDelInterface": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsDelNetwork": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsDelPrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsDelRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsDelRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsGet": [
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsGetInterface": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsGetNetwork": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsGetPrefixlist": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsGetRedistribution": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsGetRoutemap": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsSetInterface": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsSetNetwork": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsSetPrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsSetRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsSetRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsToggleInterface": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsToggleNetwork": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsTogglePrefixlist": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsToggleRedistribution": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ospfsettingsToggleRoutemap": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.ripGet": [
+    "config"
+  ],
+  "plugins.quagga.ripSet": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.serviceStatus": [
+    "config"
+  ],
+  "plugins.quagga.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.staticAddRoute": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.staticDelRoute": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.staticGet": [
+    "config"
+  ],
+  "plugins.quagga.staticGetRoute": [
+    "uuid",
+    "config"
+  ],
+  "plugins.quagga.staticSet": [
+    "data",
+    "config"
+  ],
+  "plugins.quagga.staticSetRoute": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.quagga.staticToggleRoute": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.clientsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.clientsGet": [
+    "config"
+  ],
+  "plugins.radsecproxy.clientsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.radsecproxy.clientsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.clientsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.clientsToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.generalGet": [
+    "config"
+  ],
+  "plugins.radsecproxy.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.realmsAddItem": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.realmsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.realmsGet": [
+    "config"
+  ],
+  "plugins.radsecproxy.realmsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.radsecproxy.realmsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.realmsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.realmsToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.rewritesAddItem": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.rewritesDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.rewritesGet": [
+    "config"
+  ],
+  "plugins.radsecproxy.rewritesGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.radsecproxy.rewritesSet": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.rewritesSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.rewritesToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serversAddItem": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serversDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serversGet": [
+    "config"
+  ],
+  "plugins.radsecproxy.serversGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.radsecproxy.serversSet": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serversSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serversToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.serviceStatus": [
+    "config"
+  ],
+  "plugins.radsecproxy.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.tlsAddItem": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.tlsDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.tlsGet": [
+    "config"
+  ],
+  "plugins.radsecproxy.tlsGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.radsecproxy.tlsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.tlsSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.radsecproxy.tlsToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.redis.serviceResetdb": [
+    "config"
+  ],
+  "plugins.redis.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.redis.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.redis.serviceStatus": [
+    "config"
+  ],
+  "plugins.redis.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.redis.settingsGet": [
+    "config"
+  ],
+  "plugins.redis.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.relayd.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.relayd.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.relayd.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.relayd.serviceStatus": [
+    "config"
+  ],
+  "plugins.relayd.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.relayd.settingsDel": [
+    "nodeType",
+    "uuid",
+    "config"
+  ],
+  "plugins.relayd.settingsDirty": [
+    "config"
+  ],
+  "plugins.relayd.settingsGet": [
+    "nodeType",
+    "uuid",
+    "config"
+  ],
+  "plugins.relayd.settingsSearch": [
+    "nodeType",
+    "data",
+    "config"
+  ],
+  "plugins.relayd.settingsSet": [
+    "nodeType",
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.relayd.settingsToggle": [
+    "nodeType",
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.relayd.statusSum": [
+    "wait",
+    "config"
+  ],
+  "plugins.relayd.statusToggle": [
+    "nodeType",
+    "id",
+    "action",
+    "data",
+    "config"
+  ],
+  "plugins.rspamd.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.rspamd.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.rspamd.serviceStatus": [
+    "config"
+  ],
+  "plugins.rspamd.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.rspamd.settingsGet": [
+    "config"
+  ],
+  "plugins.rspamd.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.localGet": [
+    "config"
+  ],
+  "plugins.shadowsocks.localSet": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.localserviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.localserviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.localserviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.localserviceStatus": [
+    "config"
+  ],
+  "plugins.shadowsocks.localserviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.shadowsocks.serviceStatus": [
+    "config"
+  ],
+  "plugins.shadowsocks.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.domainDelDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.domainGet": [
+    "config"
+  ],
+  "plugins.siproxd.domainGetDomain": [
+    "uuid",
+    "config"
+  ],
+  "plugins.siproxd.domainSearchDomain": [
+    "config"
+  ],
+  "plugins.siproxd.domainSet": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.domainSetDomain": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.domainToggleDomain": [
+    "uuid",
+    "config"
+  ],
+  "plugins.siproxd.generalGet": [
+    "config"
+  ],
+  "plugins.siproxd.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.serviceShowregistrations": [
+    "config"
+  ],
+  "plugins.siproxd.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.serviceStatus": [
+    "config"
+  ],
+  "plugins.siproxd.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.userAddUser": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.userDelUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.userGet": [
+    "config"
+  ],
+  "plugins.siproxd.userGetUser": [
+    "uuid",
+    "config"
+  ],
+  "plugins.siproxd.userSearchUser": [
+    "config"
+  ],
+  "plugins.siproxd.userSet": [
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.userSetUser": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.siproxd.userToggleUser": [
+    "uuid",
+    "config"
+  ],
+  "plugins.smart.serviceInfo": [
+    "data",
+    "config"
+  ],
+  "plugins.smart.serviceList": [
+    "details",
+    "data",
+    "config"
+  ],
+  "plugins.smart.serviceLogs": [
+    "data",
+    "config"
+  ],
+  "plugins.smart.serviceTest": [
+    "data",
+    "config"
+  ],
+  "plugins.softether.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.softether.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.softether.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.softether.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.softether.serviceStatus": [
+    "config"
+  ],
+  "plugins.softether.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.sslh.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.sslh.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.sslh.serviceStatus": [
+    "config"
+  ],
+  "plugins.sslh.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.sslh.settingsGet": [
+    "config"
+  ],
+  "plugins.sslh.settingsIndex": [
+    "config"
+  ],
+  "plugins.sslh.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.stunnel.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.stunnel.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.stunnel.serviceStatus": [
+    "config"
+  ],
+  "plugins.stunnel.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.stunnel.servicesAddItem": [
+    "data",
+    "config"
+  ],
+  "plugins.stunnel.servicesDelItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.stunnel.servicesGet": [
+    "config"
+  ],
+  "plugins.stunnel.servicesGetItem": [
+    "uuid",
+    "config"
+  ],
+  "plugins.stunnel.servicesSet": [
+    "data",
+    "config"
+  ],
+  "plugins.stunnel.servicesSetItem": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.stunnel.servicesToggleItem": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.authenticationSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.serviceStatus": [
+    "config"
+  ],
+  "plugins.tailscale.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.settingsAddSubnet": [
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.settingsDelSubnet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.settingsGet": [
+    "config"
+  ],
+  "plugins.tailscale.settingsGetSubnet": [
+    "uuid",
+    "config"
+  ],
+  "plugins.tailscale.settingsReload": [
+    "config"
+  ],
+  "plugins.tailscale.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.settingsSetSubnet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.statusGet": [
+    "config"
+  ],
+  "plugins.tailscale.statusIp": [
+    "config"
+  ],
+  "plugins.tailscale.statusNet": [
+    "config"
+  ],
+  "plugins.tailscale.statusSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tailscale.status": [
+    "config"
+  ],
+  "plugins.tayga.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tayga.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.tayga.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.tayga.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.tayga.serviceStatus": [
+    "config"
+  ],
+  "plugins.tayga.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.inputGet": [
+    "config"
+  ],
+  "plugins.telegraf.inputSet": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.keyAddKey": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.keyDelKey": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.keyGet": [
+    "config"
+  ],
+  "plugins.telegraf.keyGetKey": [
+    "uuid",
+    "config"
+  ],
+  "plugins.telegraf.keySet": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.keySetKey": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.keyToggleKey": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.outputGet": [
+    "config"
+  ],
+  "plugins.telegraf.outputSet": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.telegraf.serviceStatus": [
+    "config"
+  ],
+  "plugins.telegraf.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.tftp.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tftp.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.tftp.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.tftp.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.tftp.serviceStatus": [
+    "config"
+  ],
+  "plugins.tftp.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.tinc.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.tinc.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.tinc.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.tinc.settingsDelHost": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tinc.settingsDelNetwork": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tinc.settingsGet": [
+    "config"
+  ],
+  "plugins.tinc.settingsGetHost": [
+    "uuid",
+    "config"
+  ],
+  "plugins.tinc.settingsGetNetwork": [
+    "uuid",
+    "config"
+  ],
+  "plugins.tinc.settingsSearchHost": [
+    "config"
+  ],
+  "plugins.tinc.settingsSearchNetwork": [
+    "config"
+  ],
+  "plugins.tinc.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tinc.settingsSetHost": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tinc.settingsSetNetwork": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tinc.settingsToggleHost": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.tinc.settingsToggleNetwork": [
+    "uuid",
+    "enabled",
+    "data",
+    "config"
+  ],
+  "plugins.tor.exitaclDelacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.exitaclGet": [
+    "config"
+  ],
+  "plugins.tor.exitaclGetacl": [
+    "uuid",
+    "config"
+  ],
+  "plugins.tor.exitaclSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.exitaclSetacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.exitaclToggleacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.generalAddhidservauth": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.generalDelhidservauth": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.generalGet": [
+    "config"
+  ],
+  "plugins.tor.generalGethidservauth": [
+    "uuid",
+    "config"
+  ],
+  "plugins.tor.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.generalSethidservauth": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.generalTogglehidservauth": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceAddservice": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceDelservice": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceGet": [
+    "config"
+  ],
+  "plugins.tor.hiddenserviceGetservice": [
+    "uuid",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceSetservice": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceToggleservice": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceaclAddacl": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceaclDelacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceaclGet": [
+    "config"
+  ],
+  "plugins.tor.hiddenserviceaclGetacl": [
+    "uuid",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceaclSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceaclSetacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.hiddenserviceaclToggleacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.relayGet": [
+    "config"
+  ],
+  "plugins.tor.relaySet": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.serviceCircuits": [
+    "config"
+  ],
+  "plugins.tor.serviceGetHiddenServices": [
+    "config"
+  ],
+  "plugins.tor.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.serviceStatus": [
+    "config"
+  ],
+  "plugins.tor.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.serviceStreams": [
+    "config"
+  ],
+  "plugins.tor.socksaclAddacl": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.socksaclDelacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.socksaclGet": [
+    "config"
+  ],
+  "plugins.tor.socksaclGetacl": [
+    "uuid",
+    "config"
+  ],
+  "plugins.tor.socksaclSet": [
+    "data",
+    "config"
+  ],
+  "plugins.tor.socksaclSetacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.tor.socksaclToggleacl": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.turnserver.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.turnserver.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.turnserver.serviceStatus": [
+    "config"
+  ],
+  "plugins.turnserver.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.turnserver.settingsGet": [
+    "config"
+  ],
+  "plugins.turnserver.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.serviceGet": [
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.serviceReload": [
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.serviceRestart": [
+    "uuid",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.serviceSet": [
+    "data",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.serviceStart": [
+    "uuid",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.serviceStatus": [
+    "uuid",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.serviceStop": [
+    "uuid",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.settingsAddRelay": [
+    "data",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.settingsDelRelay": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.settingsGet": [
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.settingsGetRelay": [
+    "uuid",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.settingsSearchRelay": [
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.settingsSetRelay": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.udpbroadcastrelay.settingsToggleRelay": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.vnstat.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.vnstat.serviceDaily": [
+    "config"
+  ],
+  "plugins.vnstat.serviceHourly": [
+    "config"
+  ],
+  "plugins.vnstat.serviceMonthly": [
+    "config"
+  ],
+  "plugins.vnstat.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.vnstat.serviceResetdb": [
+    "config"
+  ],
+  "plugins.vnstat.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.vnstat.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.vnstat.serviceStatus": [
+    "config"
+  ],
+  "plugins.vnstat.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.vnstat.serviceYearly": [
+    "config"
+  ],
+  "plugins.wazuhagent.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.wazuhagent.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.wazuhagent.serviceStatus": [
+    "config"
+  ],
+  "plugins.wazuhagent.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.wazuhagent.settingsGet": [
+    "config"
+  ],
+  "plugins.wazuhagent.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.wol.wolDelHost": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.wol.wolGet": [
+    "config"
+  ],
+  "plugins.wol.wolGetHost": [
+    "uuid",
+    "config"
+  ],
+  "plugins.wol.wolGetwake": [
+    "config"
+  ],
+  "plugins.wol.wolSet": [
+    "data",
+    "config"
+  ],
+  "plugins.wol.wolSetHost": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.wol.wolWakeall": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.serviceStatus": [
+    "config"
+  ],
+  "plugins.zabbixagent.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsAddAlias": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsAddUserparameter": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsDelAlias": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsDelUserparameter": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsGet": [
+    "config"
+  ],
+  "plugins.zabbixagent.settingsGetAlias": [
+    "uuid",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsGetUserparameter": [
+    "uuid",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsSetAlias": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsSetUserparameter": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsToggleAlias": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zabbixagent.settingsToggleUserparameter": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zabbixproxy.generalSet": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixproxy.serviceReconfigure": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixproxy.serviceRestart": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixproxy.serviceStart": [
+    "data",
+    "config"
+  ],
+  "plugins.zabbixproxy.serviceStatus": [
+    "config"
+  ],
+  "plugins.zabbixproxy.serviceStop": [
+    "data",
+    "config"
+  ],
+  "plugins.zerotier.networkDel": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zerotier.networkGet": [
+    "uuid",
+    "config"
+  ],
+  "plugins.zerotier.networkInfo": [
+    "uuid",
+    "config"
+  ],
+  "plugins.zerotier.networkSearch": [
+    "config"
+  ],
+  "plugins.zerotier.networkSet": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zerotier.networkToggle": [
+    "uuid",
+    "data",
+    "config"
+  ],
+  "plugins.zerotier.settingsGet": [
+    "config"
+  ],
+  "plugins.zerotier.settingsSet": [
+    "data",
+    "config"
+  ],
+  "plugins.zerotier.settingsStatus": [
+    "config"
+  ]
+}

@@ -19,6 +19,32 @@ import {
   McpError,
 } from '@modelcontextprotocol/sdk/types.js';
 import { OPNsenseClient } from '@richard-stovall/opnsense-typescript-client';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// Per-method positional parameter names, generated from the client's own shipped
+// type declarations by src/generate-call-signatures.ts. Re-run
+// 'yarn generate-call-signatures' after upgrading the client, or this table
+// drifts out of sync with the methods it describes.
+const CALL_SIGNATURES = JSON.parse(readFileSync(join(__dirname, 'call-signatures.json'), 'utf8'));
+
+// Tool-call errors log their arguments. On a firewall those arguments carry
+// WireGuard private keys, user passwords and API tokens. Redact before logging.
+const SECRET_FIELD_RE = /password|secret|privatekey|private_key|apikey|api_key|token|psk|passphrase/i;
+function redactSecrets(value) {
+  if (Array.isArray(value)) return value.map(redactSecrets);
+  if (value && typeof value === 'object') {
+    const out = {};
+    for (const [k, v] of Object.entries(value)) {
+      out[k] = SECRET_FIELD_RE.test(k) ? '[redacted]' : redactSecrets(v);
+    }
+    return out;
+  }
+  return value;
+}
 
 // Embedded modular tool definitions
 const TOOLS = ${JSON.stringify(toolsData.tools, null, 2)};
@@ -84,7 +110,7 @@ class OPNsenseMCPServer {
         console.error('Tool call error:', {
           tool: tool.name,
           module: tool.module,
-          args,
+          args: redactSecrets(args),
           error: error instanceof Error ? error.message : 'Unknown error',
           stack: error instanceof Error ? error.stack : undefined
         });
@@ -155,14 +181,61 @@ class OPNsenseMCPServer {
       throw new Error(\`Method \${args.method} not found in module \${tool.module}\`);
     }
 
-    // Call the method with params (if provided)
-    console.error(\`Calling \${tool.module}.\${args.method} with params:\`, args.params);
-    
-    // Extract params, excluding the method field
+    // Map the flat params object onto the client method's positional parameters.
+    // The client declares (data, config), (uuid, config), (uuid, data, config),
+    // (uuid, enabled, data, config) and more. Passing a single merged object as
+    // argument 1 put "[object Object]" into the URL of every uuid-bearing call
+    // and dropped the body of every write. Upstream #2 #3 #5 #10 #11 #12 #14 #16 #17.
     const { method: _, params = {}, ...otherArgs } = args;
     const callParams = { ...params, ...otherArgs };
-    
-    // Only pass parameters if there are any
+
+    const sigKey = tool.module === 'plugins' && tool.submodule
+      ? 'plugins.' + tool.submodule + '.' + args.method
+      : tool.module + '.' + args.method;
+    const paramNames = CALL_SIGNATURES[sigKey];
+
+    console.error('Calling ' + sigKey);
+
+    if (paramNames) {
+      const positionalNames = paramNames.filter((n) => n !== 'data' && n !== 'config');
+
+      // An empty id yields a URL with an empty path segment, which OPNsense
+      // answers 200-with-nothing instead of rejecting. Fail loudly instead.
+      for (const n of positionalNames) {
+        if (callParams[n] === '') {
+          throw new McpError(ErrorCode.InvalidParams, "Parameter '" + n + "' cannot be an empty string");
+        }
+      }
+
+      // Whatever is not a named positional becomes the request body. Accept the
+      // body either spread across params (params: { pipe: {...} }) or nested
+      // under 'data' as the tool schema advertises (params: { data: { pipe: {...} } }).
+      const leftover = { ...callParams };
+      for (const n of positionalNames) delete leftover[n];
+      delete leftover.config;
+      if (leftover.data && typeof leftover.data === 'object' && !Array.isArray(leftover.data)) {
+        const nested = leftover.data;
+        delete leftover.data;
+        Object.assign(leftover, nested);
+      }
+
+      const argv = [];
+      for (const n of paramNames) {
+        if (n === 'config') break;
+        if (n === 'data') {
+          argv.push(Object.keys(leftover).length > 0 ? leftover : undefined);
+          continue;
+        }
+        argv.push(callParams[n]);
+      }
+      // Drop trailing undefined so optional tail parameters keep their defaults.
+      while (argv.length && argv[argv.length - 1] === undefined) argv.pop();
+
+      return await method.call(moduleObj, ...argv);
+    }
+
+    // No signature on record - the client was upgraded without regenerating the
+    // table. Fall back to the historical single-object call rather than guessing.
     if (Object.keys(callParams).length > 0) {
       return await method.call(moduleObj, callParams);
     } else {

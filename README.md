@@ -1,3 +1,26 @@
+> ### Fork notice
+>
+> This is a fork of [Pixelworlds/opnsense-mcp-server](https://github.com/Pixelworlds/opnsense-mcp-server) (MIT), which has had no commits since July 2025.
+>
+> **It fixes positional-argument dispatch.** Upstream passed a single merged object as argument 1 to every client method, but the generated client declares positional parameters — `(data, config)`, `(uuid, config)`, `(uuid, data, config)`, `(uuid, enabled, data, config)`. Every get-by-uuid, set, toggle and delete therefore requested a URL containing `[object Object]`, and OPNsense answered `200` with an empty body, so the failure was silent. Reported upstream at least nine times: issues #3, #4, #14, #16, #17 and PRs #2, #5, #10, #11, #12.
+>
+> **What changed**
+>
+> - `src/generate-call-signatures.ts` builds `call-signatures.json` — 2,024 method signatures across 86 modules — parsed from the client's own shipped `dist/index.d.ts`. The dispatcher looks up the real parameter order instead of guessing.
+> - The request body may be supplied either spread across `params` (`params: { pipe: {...} }`) or nested under `data` as the tool schema advertises. Upstream accepted neither reliably.
+> - An empty id parameter is rejected rather than building a URL with an empty path segment that OPNsense answers 200-with-nothing.
+> - Tool-call errors no longer log raw arguments. On a firewall those carry WireGuard private keys, user passwords and API tokens; they are redacted.
+> - The fix lives in `src/build.ts`, the template that generates `index.js`, so `yarn build` no longer reverts it.
+> - `test/dispatch.test.mjs` runs the built server against a fake OPNsense and asserts what reaches the wire. It fails 6/8 against upstream and passes 8/8 here.
+>
+> Credit where due: the generated-signature-table approach and the secret redaction are adapted from [To0wnn's PR #12](https://github.com/Pixelworlds/opnsense-mcp-server/pull/12); putting the fix in `src/build.ts` rather than in the build artifact is from PRs #2, #3, #5 and #10.
+>
+> Build and test:
+>
+> ```
+> yarn install && yarn generate-call-signatures && yarn build && node test/dispatch.test.mjs
+> ```
+
 # OPNsense MCP Server
 
 A modular Model Context Protocol (MCP) server that provides **88 module-based tools** giving access to over 2000 OPNsense firewall management methods through a type-safe TypeScript interface.

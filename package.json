@@ -7,11 +7,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/richard-stovall/opnsense-mcp-server.git"
+    "url": "git+https://github.com/sasha-thecornerspore-dev/opnsense-mcp-server.git"
   },
-  "homepage": "https://github.com/richard-stovall/opnsense-mcp-server#readme",
+  "homepage": "https://github.com/sasha-thecornerspore-dev/opnsense-mcp-server#readme",
   "bugs": {
-    "url": "https://github.com/richard-stovall/opnsense-mcp-server/issues"
+    "url": "https://github.com/sasha-thecornerspore-dev/opnsense-mcp-server/issues"
   },
   "bin": {
     "opnsense-mcp-server": "index.js"
@@ -22,9 +22,11 @@
     "help": "node index.js --help",
     "build": "tsx src/build.ts",
     "generate-tools": "tsx src/generate-tools.ts",
-    "build:all": "yarn generate-tools && yarn build",
+    "build:all": "yarn generate-tools && yarn generate-call-signatures && yarn build",
     "validate": "node index.js --help > /dev/null 2>&1; echo 'Validation passed'",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "generate-call-signatures": "tsx src/generate-call-signatures.ts",
+    "test:dispatch": "node test/dispatch.test.mjs"
   },
   "keywords": [
     "opnsense",
@@ -49,6 +51,7 @@
   },
   "files": [
     "index.js",
+    "call-signatures.json",
     "tools-generated.json",
     "README.md",
     "LICENSE"
